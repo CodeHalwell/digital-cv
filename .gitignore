@@ -7,5 +7,41 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv
+.venv/
+.env/
+venv/
+env/
+
+# Environment variables and secrets
 .env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Coverage and testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Gradio temporary files
+gradio_cached_examples/
+flagged/
