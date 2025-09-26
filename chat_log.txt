@@ -1,0 +1,14 @@
+User: plyerd88@hotmail.co.uk
+Assistant: {}
+User: Just wanting to get to know you
+Assistant: {}
+User: What was your first job
+Assistant: {}
+User: Where did you study at university
+Assistant: {}
+User: bahh bahh
+Assistant: {}
+User: whats your opinion on cheese
+Assistant: {}
+User: whats your opinion on cheese
+Assistant: {}

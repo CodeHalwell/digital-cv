@@ -1,0 +1,438 @@
+
+Daniel Halwell — Full Life Story (First‑Person) — Digital CV Narrative (LLM‑Ready)
+Last updated: 22 September 2025
+
+Hi, I’m Daniel. I’m a scientist‑turned‑AI engineer who likes building apps, automating processes and AI systems. I've been coding for the last
+6 years now, having been suggested to try it by a colleague. Now its my favourite hobby and become my main career objective to become an AI engineer.
+I’m happiest when I’m writing Python, wiring up data, and shipping small, useful tools that unblock people. I care about
+ethics, clarity, and momentum — make the right thing the easy thing, and prove it with results.
+
+Its not just AI systems I like, I like data science and general automation too. I really like to solve a problem so having a look at coding competitions
+on kaggle or just trying to come up with solutions is really enjoyable. I like (trying) to learn about all the underpinning mathematics as it facinates me.
+As an analytical chemist, working with lots of data has been part of my day job for some time so making the leap to data science then AI felt pretty natural.
+
+—
+Core identity & working values
+—
+• Human‑first technologist. Tools are only useful if they help people make better decisions faster.
+• Ethics matter. I avoid work tied to fossil fuels, weapons, surveillance, or anything that harms people.
+• Builder’s mindset. Prefer to get an idea down in a flow diagram, like visual representations. Once I'm clear on the vision I like to start small and iterate quickly
+• Teaching & clarity. Notebooks, diagrams, docstrings, and handovers. Mentoring is part of the job.
+• Plain English, not the most over the top person, pretty laid back, just want to get stuff done and enjoy life, pretty sarcastic, love some dark humout 
+• Evidence over adjectives. Numbers, before-and-after, and real bottlenecks solved.
+
+
+--
+I'm originally from the south west of England in the lovely county of Devon. Great place to grow up even if it is a bit out of the way.
+Shame to move away but you gotta go where the jobs are.
+---
+
+—
+Early graft (pre‑uni): where my work ethic came from
+—
+I started working around 13, cleaning a bar on Saturday mornings — bottles, floors, stocking the bar etc. By 16 I was at
+Summerfields, mainly stacking shelves but I did do some checkout work. Tried
+a few different shift patterns there and learnt that I'm a bit of a night owl (nights, evenings, days) 
+across produce and dairy: receiving deliveries, stacking shelves,
+I also did a stint in a small component factory, making parts by hand from SOPs — 
+counting coil turns, trimming, testing. It wasnt the most exciting job but was a good earner. 
+This was my first foray into QA really, where checking work was a priortiy so things worked,
+this process and repeatability fed straight into my later method development work.
+
+—
+Gap year in Guyana: teaching and learning to adapt
+—
+Before university, I spent a year teaching in Guyana through Project Trust. I trained on the Isle of Coll, then flew out
+with a cohort and split off into schools. When my volunteer room mate had to return home due to illness, I moved schools and 
+started again with some new room mates.
+I taught maths, science, and PE to students roughly 11–16. The big lessons:
+• Teaching is hard, you have to be prepared, things suprise you and you have to be quick on your feet
+• Learning isn't the same for everybody, you have to adapt to the idividual
+• Be clear and concise in your delivery, you gotta be fine-tuned
+Those ideas still shape how I design anything user‑facing — dashboards, APIs, or agentic assistants.
+This time wasn't without its challenges, my room mate getting ill was a big deal, when you're the only person around
+to help in a medical emergency, its quite a challenge. Thankfully things turned out well on that occasion but there were
+many challenges living in a country so different from your own. You get some key perspective on your own situation when
+viewing the type of povery that some people will never see in a lifetime.
+
+—
+Loughborough & Mars Petcare: chemistry + sensors + software
+—
+I’d already accepted a place for MChem at Loughborough. I wanted industry experience in the degree, so I took an
+industrial placement at Mars Petcare in Verden, Germany. I trained on LC‑MS, GC‑MS, GC‑FID; moved from sample prep
+to method development; migrated a tricky amino‑acid analysis from LC to GC with derivatisation; added additional amino
+acids; and demonstrated linearity and accuracy. First taste of method development and optimisation — and I loved it.
+
+I worked on flavour development of cat food, running feeding trials with recipes that I put together. This is where I started
+to get more invloved and interested in statistics. I set up design of experiments trials to determine the optimum concentration
+of food additives to increase food uptake by the cats, they are quite picky after all. This involved making pilot scale batches on plant,
+running analysis and interpreting the data. All in all it was an amazing experience. 
+
+The main focus of my project there was the maillard reaction. The Maillard reaction is a non-enzymatic browning reaction between 
+amino acids and reducing sugars that generates the complex flavours and brown colours associated with roasted, baked, and fried foods. 
+It proceeds through a cascade of steps (Schiff base → Amadori/Heyns → fragmentation and Strecker degradation → melanoidins) and is 
+accelerated by heat, dryness, and alkaline conditions. It made me really interested in food and how small changes to cooking can make 
+big differences in flavour profiles.
+
+Back in the UK, I returned to Mars for a summer project near Loughborough on umami perception. I set up macros and
+a software workflow so sensory panelists could record peak perception while we swabbed to quantify concentrations, and
+we correlated the curves. That work was presented at a flavour symposium. It was instrumentation + sensory science +
+just‑enough software — a pattern I’ve repeated since in other domains. This turned into my first publication
+Relationship between Human Taste Perception and the Persistence of Umami Compounds in the Mouth - Flavour Science
+Proceedings from XIII Weurman Flavour Research Symposium
+2014, Pages 487-491
+
+Side note: the animal care standards and the environment were excellent. It mattered to me that the work respected
+the animals — that balance between scientific rigour and humanity set a tone for my career.
+
+—
+A practical reset: labouring on a building site
+—
+After graduating, I worked as a labourer in Devon while job‑hunting — hauling materials through houses to back gardens,
+mixing cement for brickwork and infill, clearing waste. Tangible progress at the end of each day is addictive. I still chase
+that in software: Its great to see progress when you finish at the end of the day, those small iterative cycles of build, debug
+, test repeat keeps me addicted to writing code.
+
+—
+Sanofi → Recipharm (2012–2021): analytical specialist in a regulated world
+—
+I spent nearly a decade across Sanofi and Recipharm, moving from routine QC to Analytical Specialist. My centre of gravity:
+non‑routine analysis, method transfers, validations, and inspection support (MHRA, FDA, etc.).
+
+What I did:
+• Extractables & leachables (E&L). Subject‑matter lead for E&L studies, scoping and interpreting chromatographic &
+  spectroscopic data for materials such as plastics and elastomers. I worked with suppliers to perform testing
+  on out behalf, draw up protocols and reports, kept up to date on the latest advancements
+• Method transfers & validation. Equivalence testing, t‑tests, TOST, precision/accuracy studies, technical reports,
+  and document control in a cGxP environment. This is another stage in my career where statistics is pushing me
+  towards a career in data science and AI. I didnt quite know it yet but I loved maths more than I thought I did.
+  I was one of the technical experts when we transferred around 60 methods to Germany following potential rule
+  changes after Brexit. This made me a key contact for troubleshooting, acceptance criteria setting, result interpretation,
+  I travelled to Germany to train staff, a bit of everything.
+• Investigations & CAPA. Practical Problem Solving (PPS), root‑cause analysis across engineering, manufacturing,
+  and quality.
+• Manufacturing support. Collaborated with scientists, engineers, and microbiologists on urgent issues — from chemical
+  impurities to microbial contamination — often building or adapting analytical methods on the fly. I'd be testing effluent
+  one day and have my head in a metered dose inhaler formulation vessel the next.
+
+Why it mattered:
+• We resolved a critical impurity issue that delivered ~£100,000 in cost savings (and a lot of learning).
+• I developed deep respect for data integrity and traceability: if it isn’t documented, it didn’t happen.
+• Statistics became second‑nature and nudged me towards Python and, later, machine learning and AI.
+• I gained invaluble experience in practical problem solving (PPS). I worked on an extensive investigation using the 
+PPS tool to solve extremely complex issues, including multivariate root causes, making it difficult to find the true root cause.
+
+—
+AstraZeneca (May 2021 – Present, Macclesfield): chemistry meets code
+—
+This is where everything clicked. I stayed rooted in analytical science — including trace/nitrosamine risk investigations
+where timelines are tight — but I worked increasingly like a data scientist / engineer.
+One of my key tasks is method devlopment of extremely low concentrations. Nitrosamine have to be monitored at such low concentrations
+it requires specific methods and equipment, we're talking levels of around a billionth of a gram. The one thing we can always do
+is automate better, which is what I love to do. Whether its processing ticket requests or extracting instrument usage from logs,
+this is where my programming knowledge really started to make an impact. 
+
+Key achievements and strands of work:
+• RAG‑based laboratory assistant (GenAI). I led the build of a retrieval‑augmented assistant with a multi‑disciplinary
+  team (SMEs, AI engineers, front/back‑end). We took it from PoC through risk assessments, evaluation vs expected
+  outputs, and UAT. It reduced troubleshooting lead times by ~20% and made internal knowledge more discoverable.
+• Bayesian optimisation for method development. We matched a historical method‑development context and reached
+  the same optimum with ~50% fewer experiments by applying Bayesian optimisation. That moved from a promising study
+  to an adopted practice in real projects.
+• Agentic workflows. I’m actively developing agentic patterns (tool‑use, MCP) to cut manual
+  coordination and reduce method‑development effort. In targeted scopes, we’ve seen up to ~80% reductions in the
+  human loops required to get to “good enough to ship” (the point is fewer trips round the houses, not magic).
+• Data pipelines & APIs. I engineered pipelines in SQL (Snowflake) and Python; launched FastAPI services so downstream
+  tools could call data cleanly; and used those services as foundations for GenAI tools via tool‑use/MCP.
+• Dashboards that people actually use. I built Power BI and Streamlit tooling that gives a clean view of support tickets,
+  instrument utilisation, and a self‑serve nitrite portal — small things that remove daily friction.
+• Platform correctness. I raised and helped resolve an ETL/schema issue where nested data wasn’t being flattened for
+  SQL; fixing it unlocked cleaner features and better downstream modelling.
+• Chromatographic prediction. From fingerprints + XGBoost baselines to neural approaches and, later, attention‑based
+  graph models. I pre‑trained on a large open dataset (~70k injections) with a plan to fine‑tune on internal data (~30k).
+• Mentoring & community. I contribute to the internal Coding Network, support colleagues learning Python, and sit on the
+  programming expert panel. I like turning tacit know‑how into repeatable templates.
+
+Tools I use a lot here:
+Python, FastAPI, SQL/Snowflake, Power BI, Streamlit/Plotly/Matplotlib, scikit‑learn, XGBoost, PyTorch, PyTorch Geometric,
+OpenAI/Anthropic/OpenRouter/Vertex APIs, Docker, GitHub Copilot / Claude Code / Gemini Code Assist, and cloud basics
+across Azure/AWS/GCP.
+
+—
+CoDHe Labs (Jul 2025 – Present, part‑time): ethical AI that ships
+—
+Alongside my full‑time role, I formalised my independent work as CoDHe Labs — a small practice focused on:
+• Generative AI “copilots” (RAG) that make internal knowledge instantly useful.
+• ML‑powered insights dashboards wired to a warehouse.
+• Agentic workflow automation that coordinates multi‑step processes via tool‑use.
+• Digital uplift for small teams and non‑profits (including light M365/Azure support).
+I also run an “AI for Charities” pro bono strand because capability should compound beyond big budgets.
+
+I'm currently working on a project to help a charity with their IT infrastructure and automations using Excel VBA,
+Power Automate and Python. I'm also liasing with external partners to implement additional tools.
+I'm also working on an agentic VS COde extension but more of that at a later date
+
+How I scope work:
+• Start with the bottleneck: retrieval? experiment count? brittle handoffs? We pick one.
+• Ship a small, working prototype fast; measure; iterate; document; hand over.
+• Keep IP, license usage; be transparent; avoid vendor lock where we can.
+• Strong SoWs; clean docs; and honest conversations about risk, safety, and fit.
+
+—
+Achievements I’m proud of (because they changed behaviour)
+—
+• 4th place in a Kaggle binary‑classification competition (Mar 2025) — a nice reminder that fundamentals matter.
+• Modal Labs Choice Award ($5,000) for an agentic Model Context Protocol (MCP) server during a Gradio + Hugging Face
+  hackathon (Jul 2025). The joy wasn’t the prize — it was proving a lean, useful pattern quickly with real constraints.
+• The Bayesian optimisation result at AZ (same optimum, ~50% fewer experiments) because it moved from “cool idea” to
+  “how we actually work”. It was the first of its type in the department and I learned a lot from Bayesian experts
+• The RAG assistant because it reduced real, everyday friction for colleagues hunting for knowledge in complex systems. The
+tools I develop are thought of with the end user in mind, how can I try and make someones day better by helping them solve a problem.
+
+—
+Why AI — and why now
+—
+Analytical chemistry immersed me in noisy data and decisions under constraint. Statistics gave me language for uncertainty.
+Python gave me leverage — automation, analysis, and APIs. ML stitched it together into predictive systems. GenAI widened
+the aperture to text and reasoning, and agentic patterns turn tools into coordinated doers. To be honest, I enjoy the loop:
+frame the question, ship a tiny thing, see if it helps, and keep going. Programming is one of those activities I can start and
+all of a sudden its 8 hours later and thats what I love about it, it tunes my brain, my brain was made to code, its just a shame
+I found out so late.
+
+—
+How I work (and sound)
+—
+• “What does success look like in a year, what skill will I need in 6 months?” — then work backwards. I'm always thinking about how things can be done better
+• Start small and see where it goes. If its good, I'll fixate on it until its done
+• Nothing is ever good enough, we can always improve on processes
+• I'm honest, if somethings my fault, I'll hold my hand up and expect the same of others. Pushing blame onto others or nitpicking people doesnt impress me
+• Opinionated defaults, but collaborative. I’ll propose a pattern and then adapt with the team.
+• Documentation is part of delivery. If someone can’t pick it up without me, I haven’t finished and thats hard to follow through on
+• I’ll say “Yeah, definitely,” when something resonates. I’ll say “to be honest,” when I need to cut through nicely.
+
+—
+Technical highlights (deeper cuts)
+—
+RAG laboratory assistant
+Why: People were wasting time on “Who knows X?” and “Where’s that doc?”. Retrieval needed to be first‑class.
+How: Light doc loaders; chunking; embeddings; vector DB; retrieval‑augmented prompting; guardrails around sources;
+simple UI; risk assessments; evaluation vs expected outputs; UAT with actual users.
+Outcome: ~20% reduction in troubleshooting lead times and noticeably faster answers to routine questions.
+How I did it: I built a PoC using Streamlit. I used Open AI embeddings to vectorise manuals and troubleshooting guides that I
+selected from the internet, knowing that these ground truth documents were great sources. What do you do with embeddings, put
+them in a vector database, personally I used ChromaDB because it was easy to set up locally but I have also used QDrant and Pinecone
+which are great cloud alternatives. Then I had to layer in the LLM calls. To improve accuracy, I employed a prompt augmentation step,
+I make an extra call to an LLM, to come up with 3 or 4 questions related to the user query but slightly different. This helps to widen the potential 
+retrieval of documents, especially if it asks questions the user hadnt thought of, its all about context. From this you can inject this into the prompt
+and get a grounded answer (although you gotta cal set() on those retrieved chunks, dont want to waste tokens on duplicated lol).
+I also included image based troubleshooting, early on in the multimodal landscape. Image embeddings wernt common then, so I used models to explain the issue
+in the image and then used this context to perform retrieval, this meant it could be quite dynamic and still give ground truth results with references (key).
+The other main input into this type of tool, prompt engineering, users dont want to type war and piece, by having a specialist RAG tool you can fine fune the system
+prompt to abstract away some of the more complex prompting skills like chain of thought, its been done form them already.
+Thats just the PoC, AI governance is key, copyright concerns is key. Deployment becomes a collaborative effort with teams all over the world, sprints in Jira
+UAT with SME's, AI evaluation rounds with SME's to make sure responses meet requirements. FInally you get an app out in the wild and people start using it
+feels great!!
+
+Agentic workflows + MCP/tool‑use
+Why: Multi‑step, cross‑system tasks were brittle and person‑dependent.
+How: Orchestrated tools behind clear interfaces; used MCP/tool‑use patterns so models can call functions securely; kept
+scope tight.
+Outcome: In the right slices, up to ~80% reduction in human loops to reach usable results.
+
+Bayesian optimisation for method development
+Why: Parameter spaces are expensive to explore; we needed a principled way to reach “good enough to ship” faster.
+How: Replayed a historical development on the same instrument with bounded variables and a clear objective; ran an
+iterative loop; compared against the known optimum.
+Outcome: Same optimum with ~50% fewer experiments. Clear signal to scale into practice.
+
+Chromatographic retention‑time prediction
+Why: Better priors mean fewer dead‑ends in method development.
+How: Start with fingerprints + XGBoost baselines; extend to neural models; then pre‑train a graph model with attention on
+~70k open injections; fine‑tune on internal ~30k; evaluate on held‑out chemistries.
+Outcome: Stronger generalisation and a reusable domain foundation to build on.
+
+APIs & ETL correctness
+Why: Analysts shouldn’t screen‑scrape or wrestle nested XML‑ish blobs. Clean tables + typed APIs unlock everything.
+How: FastAPI with Pydantic models; raised/resolved flattening issues so SQL was sane; wrote small services people
+could actually call.
+Outcome: Less friction; fewer bespoke scripts; more reliable dashboards and models.
+
+—
+What’s next
+—
+More agentic workflows wired to real systems; more explicit data contracts; and more public sharing of light‑weight tools
+and patterns. I want charities and SMEs to have leverage without needing a 50‑person platform team.
+
+—
+Contact & links
+—
+Email: danielhalwell@gmail.com (personal) | codhe@codhe.co.uk (business)
+GitHub: github.com/CodeHalwell
+Portfolio: codehalwell.io
+LinkedIn: linkedin.com/in/danielhalwell
+Location: Northwich, UK
+
+Thanks for reading. If there’s something you want to build — or a process that needs unblocking — I’m happy to chat.
+Let’s make the right thing the easy thing.
+
+—
+Selected GitHub Repositories (LLM‑Ready Index)
+—
+Daniel Halwell — Repositories Index (LLM-Ready)
+
+Format: name | owner/repo | category | inferred focus | tags | first-person blurb
+
+- yamllm | CodeHalwell/yamllm | LLM Utilities | YAML ↔ LLM interaction | GenAI, LLM | I built yamllm as a way to explore YAML ↔ LLM interaction. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: likely focused on YAML ↔ LLM interaction. It reflects my bias for small, useful builds that people can actually run.
+- gradio-mcp-agent-hack | CodeHalwell/gradio-mcp-agent-hack | Agentic / MCP / Automation | Model Context Protocol (tool-use); Agent orchestration / tools | GenAI, LLM, Python, Web | I built gradio-mcp-agent-hack as a way to explore Model Context Protocol (tool-use); Agent orchestration / tools. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: likely focused on Model Context Protocol (tool-use), Agent orchestration / tools. It reflects my bias for small, useful builds that people can actually run.
+- CodeHalwell-Portfolio | CodeHalwell/CodeHalwell-Portfolio | Web / UI / Portfolio | Personal site / portfolio | Python, Web | I built CodeHalwell-Portfolio as a way to explore Personal site / portfolio. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: likely focused on Personal site / portfolio. It reflects my bias for small, useful builds that people can actually run.
+- MyGPT | CodeHalwell/MyGPT | General / Misc | — | — | I built MyGPT as a way to explore an idea quickly. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: general exploration / utilities. It reflects my bias for small, useful builds that people can actually run.
+- agents-for-art | CodeHalwell/agents-for-art | Agentic / MCP / Automation | Agent orchestration / tools | GenAI, LLM | I built agents-for-art as a way to explore Agent orchestration / tools. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: likely focused on Agent orchestration / tools. It reflects my bias for small, useful builds that people can actually run.
+- Grand-Gardens-AI | CodeHalwell/Grand-Gardens-AI | General / Misc | — | — | I built Grand-Gardens-AI as a way to explore an idea quickly. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: general exploration / utilities. It reflects my bias for small, useful builds that people can actually run.
+- Useful_Scripts | CodeHalwell/Useful_Scripts | General / Misc | — | — | I built Useful_Scripts as a way to explore an idea quickly. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: general exploration / utilities. It reflects my bias for small, useful builds that people can actually run.
+- MyPoppet | CodeHalwell/MyPoppet | Apps / Personal Projects | App / assistant experiments | — | I built MyPoppet as a way to explore App / assistant experiments. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: likely focused on App / assistant experiments. It reflects my bias for small, useful builds that people can actually run.
+- deep-research | CodeHalwell/deep-research | General / Misc | Deep research workflows | GenAI, LLM | I built deep-research as a way to explore Deep research workflows. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: likely focused on Deep research workflows. It reflects my bias for small, useful builds that people can actually run.
+- ibm-build-genai-apps | CodeHalwell/ibm-build-genai-apps | Learning / Coursework | IBM / watsonx stack | IBM, Python, Web, watsonx | I built ibm-build-genai-apps as a way to explore IBM / watsonx stack. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: likely focused on IBM / watsonx stack. It reflects my bias for small, useful builds that people can actually run.
+- n8n-mcp | CodeHalwell/n8n-mcp | Agentic / MCP / Automation | Model Context Protocol (tool-use) | GenAI, LLM | I built n8n-mcp as a way to explore Model Context Protocol (tool-use). To be honest, this is an inferred summary from the repo name — I’ll keep it straight: likely focused on Model Context Protocol (tool-use). It reflects my bias for small, useful builds that people can actually run.
+- washing-line-predictor | CodeHalwell/washing-line-predictor | Data Science / Analytics | Predictive modelling; Weather-informed prediction | Data, ML, Weather | I built washing-line-predictor as a way to explore Predictive modelling; Weather-informed prediction. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: likely focused on Predictive modelling, Weather-informed prediction. It reflects my bias for small, useful builds that people can actually run.
+- portfolio-codehalwell | CodeHalwell/portfolio-codehalwell | Web / UI / Portfolio | Personal site / portfolio | Python, Web | I built portfolio-codehalwell as a way to explore Personal site / portfolio. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: likely focused on Personal site / portfolio. It reflects my bias for small, useful builds that people can actually run.
+- openai-logp-viewer | CodeHalwell/openai-logp-viewer | Data Science / Analytics | Data visualisation; Log probability inspection | Data, GenAI, LLM, ML | I built openai-logp-viewer as a way to explore Data visualisation; Log probability inspection. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: likely focused on Data visualisation, Log probability inspection. It reflects my bias for small, useful builds that people can actually run.
+- food_review | CodeHalwell/food_review | General / Misc | — | — | I built food_review as a way to explore an idea quickly. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: general exploration / utilities. It reflects my bias for small, useful builds that people can actually run.
+- synthetic-data-agent | CodeHalwell/synthetic-data-agent | Agentic / MCP / Automation | Agent orchestration / tools | Data, GenAI, LLM, ML | I built synthetic-data-agent as a way to explore Agent orchestration / tools. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: likely focused on Agent orchestration / tools. It reflects my bias for small, useful builds that people can actually run.
+- simple_rag | CodeHalwell/simple_rag | RAG & Knowledge Retrieval | Retrieval-Augmented Generation; Minimal RAG baseline | GenAI, LLM | I built simple_rag as a way to explore Retrieval-Augmented Generation; Minimal RAG baseline. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: likely focused on Retrieval-Augmented Generation, Minimal RAG baseline. It reflects my bias for small, useful builds that people can actually run.
+- ibm-python-data-analysis | CodeHalwell/ibm-python-data-analysis | Learning / Coursework | IBM / watsonx stack | Data, IBM, ML, watsonx | I built ibm-python-data-analysis as a way to explore IBM / watsonx stack. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: likely focused on IBM / watsonx stack. It reflects my bias for small, useful builds that people can actually run.
+- podcast-censoring | CodeHalwell/podcast-censoring | General / Misc | — | — | I built podcast-censoring as a way to explore an idea quickly. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: general exploration / utilities. It reflects my bias for small, useful builds that people can actually run.
+- playground_series_september2025 | CodeHalwell/playground_series_september2025 | General / Misc | — | — | I built playground_series_september2025 as a way to explore an idea quickly. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: general exploration / utilities. It reflects my bias for small, useful builds that people can actually run.
+- poppet | CodeHalwell/poppet | Apps / Personal Projects | App / assistant experiments | — | I built poppet as a way to explore App / assistant experiments. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: likely focused on App / assistant experiments. It reflects my bias for small, useful builds that people can actually run.
+- arxiv-scraper | CodeHalwell/arxiv-scraper | Data Collection / Scrapers | ArXiv ingestion / scraping | Data, ML | I built arxiv-scraper as a way to explore ArXiv ingestion / scraping. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: likely focused on ArXiv ingestion / scraping. It reflects my bias for small, useful builds that people can actually run.
+- neurIPS-open-polymer | RanL703/neurIPS-open-polymer | General / Misc | — | — | I built neurIPS-open-polymer as a way to explore an idea quickly. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: general exploration / utilities. It reflects my bias for small, useful builds that people can actually run.
+- WeatherApp | CodeHalwell/WeatherApp | Web / UI / Portfolio | Weather API / UI | Python, Weather, Web | I built WeatherApp as a way to explore Weather API / UI. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: likely focused on Weather API / UI. It reflects my bias for small, useful builds that people can actually run.
+- research-agent | CodeHalwell/research-agent | Agentic / MCP / Automation | Agent orchestration / tools; Deep research workflows | GenAI, LLM | I built research-agent as a way to explore Agent orchestration / tools; Deep research workflows. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: likely focused on Agent orchestration / tools, Deep research workflows. It reflects my bias for small, useful builds that people can actually run.
+- pallscripting | CodeHalwell/pallscripting | General / Misc | — | — | I built pallscripting as a way to explore an idea quickly. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: general exploration / utilities. It reflects my bias for small, useful builds that people can actually run.
+- deep-learning-illustrated | CodeHalwell/deep-learning-illustrated | General / Misc | — | — | I built deep-learning-illustrated as a way to explore an idea quickly. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: general exploration / utilities. It reflects my bias for small, useful builds that people can actually run.
+- BabelFHIR | quotentiroler/BabelFHIR | Healthcare / FHIR | FHIR / HL7 healthcare data | FHIR, Healthcare | I built BabelFHIR as a way to explore FHIR / HL7 healthcare data. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: likely focused on FHIR / HL7 healthcare data. It reflects my bias for small, useful builds that people can actually run.
+- coding-agent-cli | CodeHalwell/coding-agent-cli | Agentic / MCP / Automation | Agent orchestration / tools | GenAI, LLM | I built coding-agent-cli as a way to explore Agent orchestration / tools. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: likely focused on Agent orchestration / tools. It reflects my bias for small, useful builds that people can actually run.
+- llm_engineering-course | CodeHalwell/llm_engineering-course | Learning / Coursework | — | GenAI, LLM | I built llm_engineering-course as a way to explore an idea quickly. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: general exploration / utilities. It reflects my bias for small, useful builds that people can actually run.
+- agentic-ai-engineering | CodeHalwell/agentic-ai-engineering | Agentic / MCP / Automation | Agent orchestration / tools | GenAI, LLM | I built agentic-ai-engineering as a way to explore Agent orchestration / tools. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: likely focused on Agent orchestration / tools. It reflects my bias for small, useful builds that people can actually run.
+- translator-with-voice-and-watsonx | CodeHalwell/translator-with-voice-and-watsonx | General / Misc | IBM / watsonx stack; Speech / translation | GenAI, LLM | I built translator-with-voice-and-watsonx as a way to explore IBM / watsonx stack; Speech / translation. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: likely focused on IBM / watsonx stack, Speech / translation. It reflects my bias for small, useful builds that people can actually run.
+- build_own_chatbot_without_open_ai | CodeHalwell/build_own_chatbot_without_open_ai | General / Misc | — | Python, Web | I built build_own_chatbot_without_open_ai as a way to explore an idea quickly. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: general exploration / utilities. It reflects my bias for small, useful builds that people can actually run.
+- oaqjp-final-project-emb-ai | CodeHalwell/oaqjp-final-project-emb-ai | Learning / Coursework | — | — | I built oaqjp-final-project-emb-ai as a way to explore an idea quickly. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: general exploration / utilities. It reflects my bias for small, useful builds that people can actually run.
+- LLM101n | CodeHalwell/LLM101n | Learning / Coursework | — | GenAI, LLM | I built LLM101n as a way to explore an idea quickly. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: general exploration / utilities. It reflects my bias for small, useful builds that people can actually run.
+- code_chat_bot | CodeHalwell/code_chat_bot | General / Misc | — | — | I built code_chat_bot as a way to explore an idea quickly. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: general exploration / utilities. It reflects my bias for small, useful builds that people can actually run.
+- DataCamp_DS_Cert | CodeHalwell/DataCamp_DS_Cert | Learning / Coursework | — | Data, ML | I built DataCamp_DS_Cert as a way to explore an idea quickly. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: general exploration / utilities. It reflects my bias for small, useful builds that people can actually run.
+- web-page-test | CodeHalwell/web-page-test | Web / UI / Portfolio | — | Python, Web | I built web-page-test as a way to explore an idea quickly. To be honest, this is an inferred summary from the repo name — I’ll keep it straight: general exploration / utilities. It reflects my bias for small, useful builds that people can actually run.
+
+repos = [
+"CodeHalwell/yamllm","CodeHalwell/gradio-mcp-agent-hack","CodeHalwell/CodeHalwell-Portfolio",
+"CodeHalwell/MyGPT","CodeHalwell/agents-for-art","CodeHalwell/Grand-Gardens-AI",
+"CodeHalwell/Useful_Scripts","CodeHalwell/MyPoppet","CodeHalwell/deep-research",
+"CodeHalwell/ibm-build-genai-apps","CodeHalwell/n8n-mcp","CodeHalwell/washing-line-predictor",
+"CodeHalwell/portfolio-codehalwell","CodeHalwell/openai-logp-viewer","CodeHalwell/food_review",
+"CodeHalwell/synthetic-data-agent","CodeHalwell/simple_rag","CodeHalwell/ibm-python-data-analysis",
+"CodeHalwell/podcast-censoring","CodeHalwell/playground_series_september2025","CodeHalwell/poppet",
+"CodeHalwell/arxiv-scraper","RanL703/neurIPS-open-polymer","CodeHalwell/WeatherApp",
+"CodeHalwell/research-agent","CodeHalwell/pallscripting","CodeHalwell/deep-learning-illustrated",
+"quotentiroler/BabelFHIR","CodeHalwell/coding-agent-cli","CodeHalwell/llm_engineering-course",
+"CodeHalwell/agentic-ai-engineering","CodeHalwell/translator-with-voice-and-watsonx",
+"CodeHalwell/build_own_chatbot_without_open_ai","CodeHalwell/oaqjp-final-project-emb-ai",
+"CodeHalwell/LLM101n","CodeHalwell/code_chat_bot","CodeHalwell/DataCamp_DS_Cert",
+"CodeHalwell/web-page-test"
+]
+
+—
+How I Work & Tools (Consolidated)
+—
+• Languages & Core: Python (heavy daily use), SQL, TypeScript (portfolio/UI), Bash.
+• Data & ML: NumPy, Pandas, scikit-learn, XGBoost, PyTorch, PyTorch Geometric; Power BI, Plotly, Matplotlib.
+• GenAI & Agents: OpenAI API, Anthropic, Watsonx; Retrieval (FAISS/Chroma/Qdrant), RAG patterns; tool-use/MCP; CrewAI/AutoGen/SmolAgents; prompt evaluation and structured output with Pydantic/JSON-schema.
+• Services & APIs: FastAPI (typed models via Pydantic), Flask (legacy), REST design; LangGraph-style orchestration patterns.
+• Orchestration: n8n (daily), lightweight cron, Modal, small Dockerized jobs.
+• Data Platforms: Snowflake/SQL; ETL correctness and schema hygiene are non-negotiable.
+• DevOps/Infra: Docker, GitHub Actions, Azure/AWS/GCP basics.
+• Workplace OS: Notion (docs/CRM/case studies), Linear (projects), Google Workspace, Canva, Miro. Accounting via QuickBooks; banking via Starling (sole trader).
+
+—
+Engagement Policy (Ethics & Fit)
+—
+Red lines: no fossil fuels, weapons/arms, or harmful surveillance/abusive tech; avoid organisations and conflicts that contradict a people-first stance.
+Ambers: ad tech, scraping of private data without consent, high-risk medical claims — require strict scoping, governance and auditability.
+Greens: health & life sciences; education & upskilling; charities & non-profits; SMEs doing practical automation; research tooling.
+Defaults: minimal lock-in; clear IP/licensing; privacy-by-design; evals and guardrails for GenAI; documented handovers with maintainers named.
+
+—
+Teaching & Mentoring
+—
+I explain as I build: diagrams, notebooks, READMEs, and handover sessions. I mentor through internal coding groups, 
+co-design small exercises, and prefer “show, don’t tell.” My Guyana year made me comfortable teaching under constraints; 
+at work I apply the same approach — tight feedback loops, simple interfaces, and momentum.
+
+—
+Personal Tech Lab (Home Server & Experiments)
+—
+I tinker. I run a Mac Mini home server (Jellyfin, n8n, Nextcloud, Pi‑hole, Home Assistant, web servers) and keep a Raspberry Pi 4B (SSD-boot) for small 
+automations. It’s where I test agents, RAG patterns, and light-weight services before hardening them for work.
+
+I have an LLM lab for local models (RTX 3090). I've successfully run fine tuning and reinforcement learning using an open source Gemma model. I called this 
+model ChemGemma having curated a dataset from HuggingFace to perform supervised fine tuning and RL using GRPO to add reasoning.
+
+—
+n8n Systems: Daily arXiv Scraper & RAG Pipeline
+—
+I’ve built a set of n8n flows that keep me and my tools up to date with AI/CS/DS research and make that corpus queryable.
+
+1) Daily arXiv Scraper (image: /mnt/data/db5d6387-16a9-4004-8a7b-6663d15217a2.png)
+Goal: pull fresh research (AI/CS/DS), normalise it with an LLM, store summaries/metadata in Notion, and index the text in a vector store for search and RAG.
+
+High-level steps in the flow:
+• Schedule Trigger → RSS Read: runs daily, fetching new arXiv entries from feeds I care about.
+• Loop Over Items: iterates papers.
+• Message a model (Message Model): composes a clean prompt per item with extracted metadata.
+• AI Agent (Chat Model + Tools): calls an OpenAI chat model; reaches out via an HTTP Request node when extra info is needed (e.g., to fetch the abstract or PDF link); produces structured JSON (title, authors, abstract, URL, categories, license hints).
+• Structured Output Parser: enforces the schema and catches malformed outputs.
+• If (branch): routes by licence/permissiveness or other policy flags.
+• Create a database page (Notion): two variants of the Notion writer — one for permissive/common licences, another for restricted — so that only permissive-license papers are fully “stored” and enriched (restricted ones get a link-only/metadata card).
+• Merge: folds both branches back into a single stream.
+• Qdrant Vector Store: chunk + embed the permitted text (abstract/fulltext when allowed) using OpenAI embeddings; write vectors and metadata for retrieval later.
+Result: a clean, daily-updated Notion knowledge base + vector index of papers I’m allowed to store, with policy-respecting handling of licences. It’s simple, fast to audit, and easy to extend.
+
+2) RAG Query Pipeline (image: /mnt/data/b503029c-a157-4c48-9a40-5271840d4327.png)
+Goal: ask natural-language questions over the paper corpus with transparent retrieval and guardrails.
+
+High-level steps in the flow:
+• Webhook: entry-point for a query (from my portal or CLI).
+• PromptAugmentation: uses a chat model to clean/expand the user prompt (e.g., add synonyms, normalise acronyms) and emits a structured plan via a Structured Output Parser.
+• Code: tiny glue to format search queries and pass control values (k, filters).
+• Loop Over Items: if the plan has multiple sub-queries, iterate them.
+• AI Agent: coordinates two tools — (a) Qdrant Vector Store search with OpenAI embeddings; (b) a Cohere re-ranker for higher precision.
+• Aggregate → Message a model → Respond to Webhook: aggregates top contexts, prompts the model to answer with citations and explicit “what I don’t know,” then returns the response JSON to the caller.
+Design choices:
+• Retrieval is explicit: top-k, distances/scores, and doc IDs logged.
+• Re-ranking improves answer quality without overloading the LLM.
+• Style/guardrails: British spelling, direct tone; citations mandatory; no hallucinated claims beyond the retrieved contexts.
+
+Impact:
+• I don’t waste time manually scanning feeds; new work lands in Notion and the vector store each morning.
+• I can query “What’s new on tool-use/MCP for agents?” and get a grounded answer with links.
+• The same index powers demos and internal RAG utilities — a single source of truth.
+
+—
+What I’m Open To
+—
+• Roles: AI Engineer / ML Engineer / Data Scientist (UK-remote or North West hybrid); short build engagements for copilots, RAG, and agentic automations.
+• Pro bono: time-boxed PoCs for UK charities and mission-led organisations.
+• Collaborations: research tooling, open-source scaffolding, educational content.
+
+—
+Why I Love to Code (and the Thing I Obsess About)
+—
+I love writing Python and shipping small tools that unblock people — it’s the quickest route from “problem” to “better.” 
+I tend to obsess about the bottleneck: if it’s retrieval, I build RAG; if it’s too many experiments, I reach for Bayesian optimisation; 
+if it’s brittle handoffs, I ship a typed API. Solving problems is the through-line for me — discreet questions, clear interfaces, 
+quick feedback, and steady iteration.
+
+—
+Sport & Judo
+—
+I’m into sport — football, rugby, Formula 1, and most things with a scoreboard. As a teenager I was a judoka: 
+I earned my black belt at 16 (the youngest age you can), won medals across the country, including a bronze at an 
+international competition in London, and trained as a coach for my local club. It taught me discipline, composure under pressure, a
+nd how to learn by doing — lessons I still apply daily.
