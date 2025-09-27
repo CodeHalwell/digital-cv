@@ -36,10 +36,8 @@ digital-cv/
 │   ├── dan.png          # Avatar image
 │   └── Logo WO Background.png
 ├── pyproject.toml       # Project dependencies and metadata
-├── .env                 # Environment variables (not in repo)
+├── .env                 # Environment variables (create this file locally; not included in repo)
 └── README.md           # This file
-```
-
 ## 🚀 Quick Start
 
 ### Prerequisites
