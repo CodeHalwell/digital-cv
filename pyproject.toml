@@ -62,7 +62,6 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
 # Explicitly exclude non-package directories from being treated as packages
-packages = []
 # Include data files that should be packaged with the distribution
 include-package-data = true
 
