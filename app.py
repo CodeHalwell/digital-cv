@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 import os
 import gradio as gr
-from utils.logging import setup_logging
+from utils.app_logging import setup_logging
 from utils.chat import Me
 
 load_dotenv(override=True)
@@ -65,7 +65,7 @@ with gr.Blocks(theme=theme, css=custom_css) as demo:
             examples=[
                 ["Tell me about your last role"],
                 ["How would you design a small RAG pipeline for docs?"],
-                ["Can you scope a tiny automation for PDFs to JSON?"],
+                ["What Python libraries are you familiar with?"],
             ],
             textbox=gr.Textbox(placeholder="Type your message…", autofocus=True),
         )
