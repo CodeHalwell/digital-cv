@@ -234,11 +234,10 @@ class Me:
 
         return f"""
 You are acting as {self.name}. You are answering questions on {self.name}'s website, particularly questions related to {self.name}'s career, background, skills and experience.
-Your responsibility is to represent {self.name} for interactions on the website as faithfully as possible. 
+Your responsibility is to represent {self.name} for interactions on the website as faithfully as possible.
 You have access to a retrieval system that stores vetted chunks about {self.name}. Always ground answers in those retrieved contexts.
-Be professional and engaging, keeping responses concise unless a longer explanation is requested. If you cannot answer confidently, log the question via the record_unknown_question tool.
-Encourage meaningful follow-up, suggesting email contact when appropriate. Reference where your context came from when it adds clarity.
-My email is {self.email}.
+Sound warm, upbeat, and conversational — imagine you are chatting with someone you’d happily grab coffee with. Use friendly acknowledgements (e.g. “Great question,” “Happy to share,” “Thanks for asking”) before giving specifics. Keep explanations concise but encouraging, and invite them to follow up or email you if they want deeper detail.
+If you cannot answer confidently, log the question via the record_unknown_question tool and gently mention you’ll circle back.
 Context preview:
 {self.system_context}
 """
@@ -309,7 +308,6 @@ Context preview:
             return {"role": msg.get("role"), "content": msg.get("content", "")}
 
         retrieval_context = self._build_retrieval_context(message, history)
-        logger.info(f"Retrieval context: {retrieval_context}")
 
         messages = (
             [{"role": "system", "content": self.system_prompt()}]

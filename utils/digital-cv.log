@@ -669,3 +669,351 @@ this is where my programming knowledge really started to make an impact.
 2025-09-28 14:54:52,913 INFO utils.app_logging: Saving chat log: Wehre did you grow up?
 2025-09-28 14:54:53,958 INFO utils.app_logging: Assistant final response: I don't have that detail in my profile. If you'd like to know, drop me a message at danielhalwell@gmail.com and I can share it.
 2025-09-28 14:58:09,981 INFO utils.app_logging: Demo launched
+2025-09-28 15:34:47,336 INFO utils.app_logging: Starting digital-cv
+2025-09-28 15:34:47,493 INFO utils.app_logging: Me initialized
+2025-09-28 15:34:47,495 INFO utils.app_logging: Chatbot initialized
+2025-09-28 15:34:47,495 INFO utils.app_logging: Custom CSS initialized
+2025-09-28 15:34:47,617 INFO utils.app_logging: Blocks app initialized
+2025-09-28 15:34:47,617 INFO utils.app_logging: Launching demo
+2025-09-28 15:34:56,474 INFO utils.app_logging: Retrieval context: Retrieved knowledge snippets:
+[1] Source: me/summary.txt#chunk-7 (score: 1.155)
+I spent nearly a decade across Sanofi and Recipharm, moving from routine QC to Analytical Specialist. My centre of gravity:
+non‑routine analysis, method transfers, validations, and inspection support (MHRA, FDA, etc.).
+[Metadata]
+Exec summary: Enumerates your day-to-day responsibilities at Sanofi and Recipharm, covering E&L leadership, method transfers, investigations, and manufacturing support.
+Keywords: responsibilities, extractables and leachables, method transfer, validation, investigations, manufacturing support
+Questions:
+1. What specific analytical tasks did you handle in this role?
+2. How did you contribute to extractables and leachables programmes?
+3. In what ways did you support method transfers and validations?
+4. How did you engage in investigations and CAPA activities?
+5. What types of cross-functional manufacturing collaboration did you perform?
+[/Metadata]
+
+[2] Source: me/summary.txt#chunk-6 (score: 1.192)
+—
+A practical reset: labouring on a building site
+—
+[Metadata]
+Exec summary: Highlights your post-graduation labouring work, underscoring appreciation for tangible progress and parallels to iterative software development.
+Keywords: labouring, construction, tangible progress, iteration, motivation, work ethic
+Questions:
+1. What work did you do immediately after graduating?
+2. How did labouring influence your appreciation for visible progress?
+3. In what way do you connect physical labour to your software development mindset?
+4. Why does iterative build-test cycles resonate with you?
+[/Metadata]
+After graduating, I worked as a labourer in Devon while job‑hunting — hauling materials through houses to back gardens,
+mixing cement for brickwork and infill, clearing waste. Tangible progress at the end of each day is addictive. I still chase
+that in software: Its great to see progress when you finish at the end of the day, those small iterative cycles of build, debug
+, test repeat keeps me addicted to writing code.
+—
+Sanofi → Recipharm (2012–2021): analytical specialist in a regulated world
+—
+[Metadata]
+Exec summary: Summarises nearly a decade of analytical chemistry work at Sanofi and Recipharm, covering E&L leadership, method transfers, investigations, and cross-functional support in regulated environments.
+Keywords: Sanofi, Recipharm, analytical specialist, extractables and leachables, method validation, cGxP, investigations, manufacturing support, statistics
+Questions:
+1. What were your primary responsibilities at Sanofi and Recipharm?
+2. How did you lead extractables and leachables studies?
+3. What statistical methods did you apply during method transfers and validations?
+4. How did you contribute to troubleshooting and manufacturing support?
+5. How did this period strengthen your commitment to data integrity and Python/ML?
+[/Metadata]
+
+[3] Source: me/summary.txt#chunk-8 (score: 1.209)
+What I did:
+• Extractables & leachables (E&L). Subject‑matter lead for E&L studies, scoping and interpreting chromatographic &
+  spectroscopic data for materials such as plastics and elastomers. I worked with suppliers to perform testing
+  on out behalf, draw up protocols and reports, kept up to date on the latest advancements
+• Method transfers & validation. Equivalence testing, t‑tests, TOST, precision/accuracy studies, technical reports,
+  and document control in a cGxP environment. This is another stage in my career where statistics is pushing me
+  towards a career in data science and AI. I didnt quite know it yet but I loved maths more than I thought I did.
+  I was one of the technical experts when we transferred around 60 methods to Germany following potential rule
+  changes after Brexit. This made me a key contact for troubleshooting, acceptance criteria setting, result interpretation,
+  I travelled to Germany to train staff, a bit of everything.
+• Investigations & CAPA. Practical Problem Solving (PPS), root‑cause analysis across engineering, manufacturing,
+  and quality.
+• Manufacturing support. Collaborated with scientists, engineers, and microbiologists on urgent issues — from chemical
+  impurities to microbial contamination — often building or adapting analytical methods on the fly. I'd be testing effluent
+  one day and have my head in a metered dose inhaler formulation vessel the next.
+
+[4] Source: me/summary.txt#chunk-10 (score: 1.244)
+—
+AstraZeneca (May 2021 – Present, Macclesfield): chemistry meets code
+—
+[Metadata]
+Exec summary: Captures your hybrid analytical science and AI engineering role at AstraZeneca, focusing on nitrosamine investigations, automation, and major achievements across RAG assistants, Bayesian optimisation, agentic workflows, and platform reliability.
+Keywords: AstraZeneca, analytical chemistry, nitrosamine, automation, RAG assistant, Bayesian optimisation, agentic workflows, data pipelines, mentorship
+Questions:
+1. What core responsibilities define your work at AstraZeneca?
+2. How do you apply automation and AI to analytical challenges such as nitrosamine detection?
+3. What impact did the RAG laboratory assistant deliver, and how was it developed?
+4. How did Bayesian optimisation change method development practices?
+5. What agentic workflow innovations have you introduced?
+6. Which tooling and platforms do you regularly use in this role?
+7. How do you support community and mentoring within AstraZeneca?
+[/Metadata]
+This is where everything clicked. I stayed rooted in analytical science — including trace/nitrosamine risk investigations
+where timelines are tight — but I worked increasingly like a data scientist / engineer.
+One of my key tasks is method devlopment of extremely low concentrations. Nitrosamine have to be monitored at such low concentrations
+it requires specific methods and equipment, we're talking levels of around a billionth of a gram. The one thing we can always do
+is automate better, which is what I love to do. Whether its processing ticket requests or extracting instrument usage from logs,
+this is where my programming knowledge really started to make an impact.
+2025-09-28 15:34:56,474 INFO utils.app_logging: User: Tell me about your last role
+2025-09-28 15:34:57,086 INFO utils.app_logging: Guardrails response: Neutral. True -> True
+2025-09-28 15:35:06,757 INFO utils.app_logging: Assistant final response: Sure — here’s a concise summary of my most recent full‑time role.
+
+Senior Scientist — AstraZeneca (May 2021 – Present), Macclesfield
+- Core focus: analytical chemistry integrated with data science/engineering. I lead method development and validation for trace analysis (UPLC, GC, GC‑MS, LC‑MS/MS), with particular emphasis on nitrosamine investigations at very low concentrations.
+- Automation & data work: I apply Python for data pipelines, ML, visualization and Generative AI to speed up routine work and decision‑making. Examples include Bayesian optimisation of method parameters, chromatographic prediction models (XGBoost and neural nets), and building REST APIs (FastAPI) to integrate analytical data.
+- Knowledge systems & tooling: built a RAG (retrieval‑augmented generation) chatbot for lab knowledge management, worked with LLMs/agentic workflows and Copilot Studio to improve lab support and automation.
+- Cross‑functional & regulated work: provide technical support for GMP inspections and urgent manufacturing problems, perform non‑routine analysis, method transfers/validations, investigations and CAPA work; I also mentor colleagues on data and automation practices.
+- Technologies: HPLC, GC‑MS, LC‑MS/MS, Python, SQL, TensorFlow/PyTorch, OpenAI/Anthropic APIs, FastAPI, ML toolkits.
+
+If you’d like more detail (examples of projects, code/architecture, or outputs), tell me which area interests you most — or email me at danielhalwell@gmail.com. (Summary based on my AstraZeneca profile and project highlights.)
+2025-09-28 15:36:21,344 INFO utils.app_logging: Demo launched
+2025-09-28 15:44:16,506 INFO utils.app_logging: Starting digital-cv
+2025-09-28 15:44:16,665 INFO utils.app_logging: Me initialized
+2025-09-28 15:44:16,667 INFO utils.app_logging: Chatbot initialized
+2025-09-28 15:44:16,667 INFO utils.app_logging: Custom CSS initialized
+2025-09-28 15:44:16,789 INFO utils.app_logging: Blocks app initialized
+2025-09-28 15:44:16,789 INFO utils.app_logging: Launching demo
+2025-09-28 15:52:21,678 INFO utils.app_logging: Demo launched
+2025-09-28 15:53:44,429 INFO utils.app_logging: Starting digital-cv
+2025-09-28 15:53:44,586 INFO utils.app_logging: Me initialized
+2025-09-28 15:53:44,589 INFO utils.app_logging: Chatbot initialized
+2025-09-28 15:53:44,589 INFO utils.app_logging: Custom CSS initialized
+2025-09-28 15:53:44,713 INFO utils.app_logging: Blocks app initialized
+2025-09-28 15:53:44,713 INFO utils.app_logging: Launching demo
+2025-09-28 15:55:40,241 INFO utils.app_logging: Starting digital-cv
+2025-09-28 15:55:40,402 INFO utils.app_logging: Me initialized
+2025-09-28 15:55:40,404 INFO utils.app_logging: Chatbot initialized
+2025-09-28 15:55:40,404 INFO utils.app_logging: Custom CSS initialized
+2025-09-28 15:55:40,524 INFO utils.app_logging: Blocks app initialized
+2025-09-28 15:55:40,524 INFO utils.app_logging: Launching demo
+2025-09-28 15:56:31,203 INFO utils.app_logging: Demo launched
+2025-09-28 15:56:37,720 INFO utils.app_logging: Starting digital-cv
+2025-09-28 15:56:37,876 INFO utils.app_logging: Me initialized
+2025-09-28 15:56:37,878 INFO utils.app_logging: Chatbot initialized
+2025-09-28 15:56:37,878 INFO utils.app_logging: Custom CSS initialized
+2025-09-28 15:56:38,007 INFO utils.app_logging: Blocks app initialized
+2025-09-28 15:56:38,007 INFO utils.app_logging: Launching demo
+2025-09-28 15:57:25,740 INFO utils.app_logging: Demo launched
+2025-09-28 15:57:38,418 INFO utils.app_logging: Starting digital-cv
+2025-09-28 15:57:38,579 INFO utils.app_logging: Me initialized
+2025-09-28 15:57:38,581 INFO utils.app_logging: Chatbot initialized
+2025-09-28 15:57:38,581 INFO utils.app_logging: Custom CSS initialized
+2025-09-28 15:57:38,699 INFO utils.app_logging: Blocks app initialized
+2025-09-28 15:57:38,699 INFO utils.app_logging: Launching demo
+2025-09-28 16:13:31,372 INFO utils.app_logging: Starting digital-cv
+2025-09-28 16:13:31,589 INFO utils.app_logging: Me initialized
+2025-09-28 16:13:31,595 INFO utils.app_logging: Chatbot initialized
+2025-09-28 16:13:31,595 INFO utils.app_logging: Custom CSS initialized
+2025-09-28 16:13:31,722 INFO utils.app_logging: Blocks app initialized
+2025-09-28 16:13:31,722 INFO utils.app_logging: Launching demo
+2025-09-28 16:17:41,182 INFO utils.app_logging: Starting digital-cv
+2025-09-28 16:17:41,338 INFO utils.app_logging: Me initialized
+2025-09-28 16:17:41,340 INFO utils.app_logging: Chatbot initialized
+2025-09-28 16:17:41,340 INFO utils.app_logging: Custom CSS initialized
+2025-09-28 16:24:33,367 INFO utils.app_logging: Demo launched
+2025-09-28 16:24:37,389 INFO utils.app_logging: Starting digital-cv
+2025-09-28 16:24:37,544 INFO utils.app_logging: Me initialized
+2025-09-28 16:24:37,546 INFO utils.app_logging: Chatbot initialized
+2025-09-28 16:24:37,546 INFO utils.app_logging: Custom CSS initialized
+2025-09-28 16:24:37,667 INFO utils.app_logging: Blocks app initialized
+2025-09-28 16:24:37,667 INFO utils.app_logging: Launching demo
+2025-09-28 16:27:05,198 INFO utils.app_logging: Starting digital-cv
+2025-09-28 16:27:05,355 INFO utils.app_logging: Me initialized
+2025-09-28 16:27:05,357 INFO utils.app_logging: Chatbot initialized
+2025-09-28 16:27:05,357 INFO utils.app_logging: Custom CSS initialized
+2025-09-28 16:27:05,478 INFO utils.app_logging: Blocks app initialized
+2025-09-28 16:27:05,478 INFO utils.app_logging: Launching demo
+2025-09-28 16:27:20,106 INFO utils.app_logging: Demo launched
+2025-09-28 16:27:29,432 INFO utils.app_logging: Starting digital-cv
+2025-09-28 16:27:29,585 INFO utils.app_logging: Me initialized
+2025-09-28 16:27:29,587 INFO utils.app_logging: Chatbot initialized
+2025-09-28 16:27:29,587 INFO utils.app_logging: Custom CSS initialized
+2025-09-28 16:27:29,706 INFO utils.app_logging: Blocks app initialized
+2025-09-28 16:27:29,706 INFO utils.app_logging: Launching demo
+2025-09-28 16:29:46,789 INFO utils.app_logging: Demo launched
+2025-09-28 16:32:05,010 INFO utils.app_logging: Starting digital-cv
+2025-09-28 16:32:05,163 INFO utils.app_logging: Me initialized
+2025-09-28 16:32:05,164 INFO utils.app_logging: Chatbot initialized
+2025-09-28 16:32:05,165 INFO utils.app_logging: Custom CSS initialized
+2025-09-28 16:32:05,295 INFO utils.app_logging: Blocks app initialized
+2025-09-28 16:32:05,296 INFO utils.app_logging: Launching demo
+2025-09-28 16:32:41,791 INFO utils.app_logging: User: What Python libraries are you familiar with?
+2025-09-28 16:32:42,505 INFO utils.app_logging: Guardrails response: Neutral True -> True
+2025-09-28 16:32:53,153 INFO utils.app_logging: Assistant final response: Good question — here are the main Python libraries and related tooling I use regularly (from my public profile / summary):
+
+- Core numeric & data: NumPy, Pandas  
+- ML / classical: scikit‑learn, XGBoost  
+- Deep learning: PyTorch, PyTorch Geometric  
+- Visualization: Matplotlib, Plotly  
+- Web / APIs: FastAPI, Flask, Pydantic (typed models / JSON schema)  
+- GenAI / retrieval tooling: OpenAI API, Anthropic, Watsonx (APIs); FAISS, Chroma, Qdrant (vector stores)  
+- Supporting stack: SQL (via Python clients), Dockerized jobs, small orchestration (Modal, n8n)
+
+If you want, I can share example snippets or a short notebook showing how I combine these (e.g., FastAPI + Pandas + a PyTorch model). You can also email me at danielhalwell@gmail.com.
+2025-09-28 16:33:26,108 INFO utils.app_logging: User: How would you design a small RAG pipeline for docs?
+2025-09-28 16:33:27,100 INFO utils.app_logging: Guardrails response: Neutral True -> True
+2025-09-28 16:33:47,249 INFO utils.app_logging: Assistant final response: Great question — here’s a compact, practical design for a small RAG pipeline for documents, based on my RAG Query Pipeline and ingestion flow (see my notes on the RAG Query Pipeline and the daily ingest pipeline). I’ll give the architecture, component responsibilities, concrete tech choices, tuning knobs and guardrails.
+
+High-level architecture
+- Ingest → Chunk & Embed → Vector Store → Retriever (+ optional re‑ranker) → Prompt Augmentation → Model Synthesiser → API/Webhook
+- Persistence: raw docs (object store), chunks & vectors (vector DB + metadata), provenance & logs (SQL/Notion/Elasticsearch)
+
+Components & responsibilities
+1. Ingest
+- Sources: local docs, PDFs, S3, Google Drive, Notion, or HTTP endpoints.
+- Extract text (pdfminer / tika / pypdf) and metadata (title, author, date, licence).
+- Run a licence check / permissiveness branch (store full text only if licence permits) — inspired by my daily arXiv flow.
+
+2. Chunking & filtering
+- Split into semantic chunks (typical 500–1,000 tokens) with overlap (50–200 tokens) to preserve context.
+- Remove boilerplate and near-duplicates; store original doc id + chunk offsets in metadata.
+
+3. Embeddings & vector storage
+- Create embeddings (OpenAI embeddings or another provider). Write vectors + metadata to Qdrant / Chroma / FAISS.
+- Log embedding model, vector id, and insert time.
+
+4. Retriever & re‑ranking
+- Retriever: top_k search (start k=10).
+- Optional re‑ranker: pass top candidates to a re‑ranker (Cohere or a small cross-encoder) to improve precision without expanding LLM context load — this mirrors my RAG Query Pipeline design.
+- Always retain scores/distances and doc IDs for auditing.
+
+5. Prompt augmentation & planning
+- Clean/expand the user prompt (acronyms, synonyms) with a small chat model to create a structured plan (e.g., sub-queries), then build retrieval queries.
+- Use a Structured Output Parser (Pydantic/JSON-schema) for predictable LLM outputs and to catch malformed responses.
+
+6. Response synthesis
+- Aggregate top contexts, construct a prompt that:
+  - Shows the retrieved excerpts with citations (doc id + chunk positions),
+  - Asks the model to state uncertainty explicitly (“what I don’t know”),
+  - Uses guardrails (style: British spelling, concise, no hallucinations).
+- Produce final answer + list of cited sources and retrieval scores.
+
+7. API / UI
+- Expose via a FastAPI webhook (typed with Pydantic) that:
+  - Accepts query, user constraints (e.g., max sources), and returns answer + citations + provenance.
+- Add rate-limiting, auth, and request logging.
+
+Operational & design choices (practical knobs)
+- Chunk size: 500–1,000 tokens; overlap 50–200 tokens.
+- top_k: 8–12 for retrieval; re-rank to reduce to 3–5 to send to the model.
+- Embedding model: current OpenAI embedding (or provider equivalent).
+- Vector DB: Qdrant (good balance of features / hosted options).
+- Orchestration: simple cron / n8n or a small Dockerised job (I use n8n / lightweight cron patterns).
+- Monitoring: log retrieval IDs, distances, timestamps, prompt used and model outputs for auditing.
+- CI: tests for chunking correctness, embedding stability, and sample Q->A drift.
+
+Guardrails & provenance (important)
+- Mandatory citations — each factual claim tied back to source chunks.
+- “What I don’t know” section in every reply.
+- Licence-aware storage (only store fulltext where permitted).
+- Explicit logging of retrieval scores/distances and doc IDs for traceability.
+
+Minimal tech stack (example)
+- Python, FastAPI, Pydantic for API/schema
+- OpenAI embeddings / OpenAI chat (or Anthropic)
+- Qdrant for vector store
+- Cohere or small cross-encoder for re‑ranking (optional)
+- Docker, GitHub Actions for CI
+- Notion/SQL for metadata & small knowledge base
+This matches my notes on languages/tools and the RAG Query Pipeline design choices.
+
+Next steps I can take for you
+- Sketch a minimal repo layout + small example app (FastAPI + Qdrant + OpenAI embedding + simple prompt flow).
+- Share a notebook demonstrating ingestion → chunk → embed → retrieve → response.
+
+Would you like a starter repo and code snippets (FastAPI + Qdrant + OpenAI) tailored to your document types? If so, tell me the document formats and preferred hosting (local / cloud), and I’ll prepare it — or email me at danielhalwell@gmail.com.
+2025-09-28 16:35:55,951 INFO utils.app_logging: Demo launched
+2025-09-28 16:36:00,048 INFO utils.app_logging: Starting digital-cv
+2025-09-28 16:36:00,204 INFO utils.app_logging: Me initialized
+2025-09-28 16:36:00,206 INFO utils.app_logging: Chatbot initialized
+2025-09-28 16:36:00,206 INFO utils.app_logging: Custom CSS initialized
+2025-09-28 16:36:00,329 INFO utils.app_logging: Blocks app initialized
+2025-09-28 16:36:00,329 INFO utils.app_logging: Launching demo
+2025-09-28 16:40:43,544 INFO utils.app_logging: Starting digital-cv
+2025-09-28 16:40:43,700 INFO utils.app_logging: Me initialized
+2025-09-28 16:40:43,702 INFO utils.app_logging: Chatbot initialized
+2025-09-28 16:40:43,702 INFO utils.app_logging: Custom CSS initialized
+2025-09-28 16:40:43,833 INFO utils.app_logging: Blocks app initialized
+2025-09-28 16:40:43,833 INFO utils.app_logging: Launching demo
+2025-09-28 16:49:09,934 INFO utils.app_logging: Demo launched
+2025-09-28 16:49:13,444 INFO utils.app_logging: Starting digital-cv
+2025-09-28 16:49:13,603 INFO utils.app_logging: Me initialized
+2025-09-28 16:49:13,606 INFO utils.app_logging: Chatbot initialized
+2025-09-28 16:49:13,606 INFO utils.app_logging: Custom CSS initialized
+2025-09-28 16:49:13,730 INFO utils.app_logging: Blocks app initialized
+2025-09-28 16:49:13,730 INFO utils.app_logging: Launching demo
+2025-09-28 17:01:43,057 INFO utils.app_logging: Starting digital-cv
+2025-09-28 17:01:43,212 INFO utils.app_logging: Me initialized
+2025-09-28 17:01:43,214 INFO utils.app_logging: Chatbot initialized
+2025-09-28 17:01:43,214 INFO utils.app_logging: Custom CSS initialized
+2025-09-28 17:01:43,339 INFO utils.app_logging: Blocks app initialized
+2025-09-28 17:01:43,339 INFO utils.app_logging: Launching demo
+2025-09-28 17:03:17,775 INFO utils.app_logging: Starting digital-cv
+2025-09-28 17:03:17,928 INFO utils.app_logging: Me initialized
+2025-09-28 17:03:17,930 INFO utils.app_logging: Chatbot initialized
+2025-09-28 17:03:17,930 INFO utils.app_logging: Custom CSS initialized
+2025-09-28 17:03:18,054 INFO utils.app_logging: Blocks app initialized
+2025-09-28 17:03:18,054 INFO utils.app_logging: Launching demo
+2025-09-28 17:04:18,171 INFO utils.app_logging: Demo launched
+                                                                    2025-09-28 17:11:19,311 INFO utils.app_logging: Starting digital-cv
+2025-09-28 17:11:19,553 INFO utils.app_logging: Me initialized
+2025-09-28 17:11:19,582 INFO utils.app_logging: Chatbot initialized
+2025-09-28 17:11:19,582 INFO utils.app_logging: Custom CSS initialized
+2025-09-28 17:11:19,706 INFO utils.app_logging: Blocks app initialized
+2025-09-28 17:11:19,706 INFO utils.app_logging: Launching demo
+2025-09-28 17:11:41,193 INFO utils.app_logging: User: Tell me about your last role
+2025-09-28 17:11:41,720 INFO utils.app_logging: Guardrails response: Neutral True -> True
+2025-09-28 17:11:53,169 INFO utils.app_logging: Assistant final response: Which role do you mean — my current part‑time AI advisor role at CoDHe Labs (started July 2025) or my previous full‑time role as Senior Scientist at AstraZeneca (May 2021 – present)? I can summarise either; below is a concise summary of both.
+
+AstraZeneca — Senior Scientist (May 2021 – present)
+- Core focus: analytical method development and validation for drug substance/product analysis, with emphasis on trace-level nitrosamine investigations (ultra‑trace quantitation).
+- Day‑to‑day: develop and validate chromatographic methods (UPLC, GC, LC‑MS/MS), run non‑routine analysis, support GMP inspections, and provide rapid troubleshooting for manufacturing questions.
+- Data/automation: build Python tools, REST APIs (FastAPI) and data pipelines to automate data ingestion and instrument log processing; apply machine learning (XGBoost, neural nets) for chromatographic prediction and Bayesian optimisation to streamline method development.
+- RAG / generative AI work: designed a RAG chatbot for laboratory knowledge management and other agentic/automation workflows to help scientists find protocols and instrument guidance.
+- Tech stack: HPLC, GC‑MS, LC‑MS/MS, Python, SQL, TensorFlow/PyTorch, OpenAI/Anthropic APIs, LangChain, FastAPI, Copilot Studio.
+- Impact: faster method development cycles, better trace analysis reliability, and improved lab knowledge access for colleagues.
+
+CoDHe Labs — AI Engineer (part‑time, Jul 2025 – present)
+- Advisory work implementing responsible generative AI (RAG systems, chatbots, automation) for charities and small organisations.
+- Pro bono AI consulting and hands‑on model/data work using the same ML/LLM toolchain I use in pharma projects.
+
+If you want a deeper dive (examples of projects, code snippets, or published results), tell me which area and I’ll expand — or email me at danielhalwell@gmail.com.
+2025-09-28 17:14:25,665 INFO utils.app_logging: Demo launched
+2025-09-28 17:21:21,003 INFO utils.app_logging: Starting digital-cv
+2025-09-28 17:21:21,159 INFO utils.app_logging: Me initialized
+2025-09-28 17:21:21,161 INFO utils.app_logging: Chatbot initialized
+2025-09-28 17:21:21,161 INFO utils.app_logging: Custom CSS initialized
+2025-09-28 17:21:21,285 INFO utils.app_logging: Blocks app initialized
+2025-09-28 17:21:21,285 INFO utils.app_logging: Launching demo
+2025-09-28 17:21:38,917 INFO utils.app_logging: User: What Python libraries are you familiar with?
+2025-09-28 17:21:39,385 INFO utils.app_logging: Guardrails response: neutral True -> True
+2025-09-28 17:21:52,109 INFO utils.app_logging: Assistant final response: Great question — happy to share. I use Python heavily (daily) and work across a broad set of libraries and tools. Short list grouped by purpose:
+
+- Core / data handling
+  - Python (daily), NumPy, Pandas, SQL (via Python connectors)
+- Machine learning / statistics
+  - scikit‑learn, XGBoost, stats packages
+- Deep learning / graph ML
+  - PyTorch, PyTorch Geometric
+- Generative AI / LLMs & agents
+  - OpenAI API, Anthropic, IBM Watsonx; LangChain, CrewAI/AutoGen/SmolAgents patterns
+  - Retrieval tools: FAISS, Chroma, Qdrant; RAG patterns, prompt evaluation
+- APIs & service frameworks
+  - FastAPI (typed models with Pydantic), Flask (legacy)
+- Visualization & reporting
+  - Plotly, Matplotlib, Power BI (integration)
+- Experimentation & optimisation
+  - Bayesian optimisation tooling (custom, libraries around skopt / optuna-style patterns)
+- DevOps / orchestration / infra
+  - Docker, GitHub Actions, n8n, Modal, lightweight cron jobs
+- Misc / productivity
+  - Type hints / Pydantic, JSON Schema, Bash, TypeScript for UIs
+
+I also mentor colleagues on Python and contribute to an internal Coding Network — happy to walk through any of the above in more detail or show example code. You can email me at danielhalwell@gmail.com if you want notebooks or project examples.
+2025-09-28 17:25:30,110 INFO utils.app_logging: Demo launched
