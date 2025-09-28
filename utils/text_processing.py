@@ -15,10 +15,7 @@ project_root = Path(__file__).resolve().parent.parent
 if str(project_root) not in sys.path:
     sys.path.insert(0, str(project_root))
 
-try:
-        from utils.vector_db import VectorDB
-except ModuleNotFoundError:  # pragma: no cover - direct script usage
-    from vector_db import VectorDB
+from utils.vector_db import VectorDB
 
 dotenv.load_dotenv()
 
