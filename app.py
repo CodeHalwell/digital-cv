@@ -45,9 +45,16 @@ custom_css = """
 html, body, .gradio-container { height: 100%; }
 body {
     margin: 0;
-    font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
-    background: radial-gradient(circle at 10% 0%, #2f3c8f 0%, #171c37 55%, #0b1120 100%);
-    color: #e7ecff;
+    font-family: "Inter", "SF Pro Display", "Segoe UI", system-ui, -apple-system, sans-serif;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 25%, #334155 50%, #1e293b 75%, #0f172a 100%);
+    background-attachment: fixed;
+    color: #f8fafc;
+    font-feature-settings: "kern" 1, "liga" 1, "ss01" 1;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    line-height: 1.6;
 }
 .gradio-container {
     display: flex;
@@ -55,37 +62,121 @@ body {
     padding: 28px 0 36px;
 }
 #container {
-    max-width: 1100px;
+    max-width: 1280px;
     margin: 0 auto;
-    padding: 16px 24px 28px;
+    padding: 32px 40px 40px;
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
     min-height: 0;
-    border-radius: 20px;
-    background: rgba(12, 20, 46, 0.82);
-    box-shadow: 0 32px 60px rgba(4, 8, 24, 0.45);
-    backdrop-filter: blur(18px);
-    border: 1px solid rgba(114, 135, 255, 0.24);
+    border-radius: 32px;
+    background: rgba(15, 23, 42, 0.95);
+    box-shadow: 
+        0 64px 128px rgba(0, 0, 0, 0.4),
+        0 32px 64px rgba(0, 0, 0, 0.2),
+        0 0 0 1px rgba(148, 163, 184, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(24px);
+    border: 1px solid rgba(148, 163, 184, 0.15);
+    position: relative;
+    overflow: hidden;
+}
+#container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, 
+        transparent, 
+        rgba(59, 130, 246, 0.6), 
+        rgba(147, 51, 234, 0.6), 
+        transparent
+    );
+    z-index: 1;
+}
+#container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 50% 0%, rgba(59, 130, 246, 0.05) 0%, transparent 50%);
+    pointer-events: none;
+    z-index: 0;
 }
 #header {
     align-items: center;
-    gap: 18px;
+    gap: 32px;
     justify-content: flex-start;
+    margin-bottom: 16px;
+    position: relative;
+    z-index: 2;
 }
 #logo img {
-    max-height: 210px;
+    max-height: 240px;
     width: auto;
-    border-radius: 18px;
+    border-radius: 24px;
     object-fit: contain;
-    box-shadow: 0 18px 36px rgba(9, 12, 35, 0.4);
+    box-shadow: 
+        0 32px 64px rgba(0, 0, 0, 0.3),
+        0 16px 32px rgba(0, 0, 0, 0.2),
+        0 0 0 1px rgba(148, 163, 184, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    filter: brightness(1.05) contrast(1.1);
+}
+#logo img:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 
+        0 48px 96px rgba(0, 0, 0, 0.4),
+        0 24px 48px rgba(0, 0, 0, 0.3),
+        0 0 0 1px rgba(59, 130, 246, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    filter: brightness(1.1) contrast(1.15);
 }
 #intro-card {
-    border-radius: 18px;
-    padding: 20px 24px;
-    background: linear-gradient(140deg, rgba(62, 78, 177, 0.42), rgba(24, 30, 64, 0.74));
-    border: 1px solid rgba(140, 162, 255, 0.25);
-    box-shadow: inset 0 0 0 1px rgba(210, 220, 255, 0.08);
+    border-radius: 24px;
+    padding: 32px 36px;
+    background: linear-gradient(135deg, 
+        rgba(30, 41, 59, 0.8) 0%, 
+        rgba(51, 65, 85, 0.6) 50%, 
+        rgba(30, 41, 59, 0.8) 100%
+    );
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    box-shadow: 
+        inset 0 1px 0 rgba(255, 255, 255, 0.1),
+        0 16px 32px rgba(0, 0, 0, 0.2),
+        0 8px 16px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(16px);
+}
+#intro-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, 
+        transparent, 
+        rgba(59, 130, 246, 0.5), 
+        rgba(147, 51, 234, 0.5), 
+        transparent
+    );
+}
+#intro-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 50% 0%, rgba(59, 130, 246, 0.03) 0%, transparent 70%);
+    pointer-events: none;
 }
 #intro-card ul {
     margin: 0.35rem 0 0.7rem;
@@ -94,11 +185,38 @@ body {
 #intro-card li { margin-bottom: 0.3rem; }
 #title {
     text-align: center;
-    margin: 12px 0 14px;
-    letter-spacing: 0.05em;
+    margin: 24px 0 32px;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
-    font-weight: 650;
-    color: #c6ceff;
+    font-weight: 800;
+    color: #f1f5f9;
+    font-size: 1.75rem;
+    text-shadow: 
+        0 4px 12px rgba(0, 0, 0, 0.4),
+        0 2px 6px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 2;
+    background: linear-gradient(135deg, #f1f5f9 0%, #cbd5e1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+#title::after {
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(90deg, 
+        transparent, 
+        rgba(59, 130, 246, 0.8), 
+        rgba(147, 51, 234, 0.8), 
+        transparent
+    );
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
 }
 #chat-wrapper {
     display: flex;
@@ -110,12 +228,50 @@ body {
 #chatbot {
     display: flex;
     flex-direction: column;
-    min-height: 520px;
-    height: clamp(520px, calc(100dvh - 260px), 960px);
-    border-radius: 20px;
-    border: 1px solid rgba(142, 168, 255, 0.22);
-    background: linear-gradient(165deg, rgba(25, 37, 76, 0.88), rgba(12, 18, 38, 0.95));
-    box-shadow: inset 0 0 0 1px rgba(210, 220, 255, 0.05), 0 26px 48px rgba(7, 12, 34, 0.38);
+    min-height: 680px;
+    height: clamp(680px, calc(100dvh - 200px), 1200px);
+    border-radius: 28px;
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    background: linear-gradient(135deg, 
+        rgba(15, 23, 42, 0.95) 0%, 
+        rgba(30, 41, 59, 0.9) 50%, 
+        rgba(15, 23, 42, 0.95) 100%
+    );
+    box-shadow: 
+        inset 0 1px 0 rgba(255, 255, 255, 0.1),
+        0 48px 96px rgba(0, 0, 0, 0.3),
+        0 24px 48px rgba(0, 0, 0, 0.2),
+        0 0 0 1px rgba(148, 163, 184, 0.1);
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(20px);
+    z-index: 2;
+}
+#chatbot::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, 
+        transparent, 
+        rgba(59, 130, 246, 0.6), 
+        rgba(147, 51, 234, 0.6), 
+        transparent
+    );
+    z-index: 1;
+}
+#chatbot::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 50% 0%, rgba(59, 130, 246, 0.02) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: 0;
 }
 #chatbot .wrapper,
 #chatbot .bubble-wrap,
@@ -127,7 +283,8 @@ body {
 #chatbot .bubble-wrap {
     flex-direction: column;
     overflow-y: auto;
-    padding: 6px 6px 12px;
+    padding: 12px 16px 20px;
+    gap: 16px;
 }
 #chatbot label span {
     color: rgba(221, 230, 255, 0.85);
@@ -135,75 +292,417 @@ body {
     letter-spacing: 0.03em;
 }
 #chatbot .message-wrap .message {
-    background: rgba(17, 27, 54, 0.88);
-    border-radius: 16px;
-    border: 1px solid rgba(140, 166, 255, 0.22);
-    box-shadow: 0 16px 28px rgba(8, 14, 40, 0.32);
+    background: rgba(30, 41, 59, 0.9);
+    border-radius: 24px;
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    box-shadow: 
+        0 24px 48px rgba(0, 0, 0, 0.2),
+        0 12px 24px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    padding: 20px 24px;
+    margin: 8px 0;
+    line-height: 1.6;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+#chatbot .message-wrap .message::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+}
+#chatbot .message-wrap .message:hover {
+    transform: translateY(-2px) scale(1.01);
+    box-shadow: 
+        0 32px 64px rgba(0, 0, 0, 0.3),
+        0 16px 32px rgba(0, 0, 0, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 #chatbot .message-wrap .bot .message {
-    background: linear-gradient(155deg, rgba(68, 99, 255, 0.28), rgba(18, 24, 50, 0.9));
+    background: linear-gradient(135deg, 
+        rgba(30, 41, 59, 0.95) 0%, 
+        rgba(51, 65, 85, 0.8) 100%
+    );
+    border-color: rgba(59, 130, 246, 0.3);
+    margin-right: 60px;
+    margin-left: 8px;
 }
 #chatbot .message-wrap .user .message {
-    background: linear-gradient(155deg, rgba(200, 108, 255, 0.32), rgba(24, 18, 44, 0.92));
+    background: linear-gradient(135deg, 
+        rgba(30, 41, 59, 0.95) 0%, 
+        rgba(51, 65, 85, 0.8) 100%
+    );
+    border-color: rgba(147, 51, 234, 0.3);
+    margin-left: 60px;
+    margin-right: 8px;
 }
 .suggestion-banner {
-    font-weight: 650;
-    letter-spacing: 0.04em;
+    font-weight: 700;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
-    font-size: 0.86rem;
-    color: #aeb8ff;
+    font-size: 0.95rem;
+    color: #cbd5e1;
+    margin-bottom: 16px;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 2;
 }
-.suggestion-buttons { display: flex; gap: 10px; flex-wrap: nowrap; justify-content: space-between; }
+.suggestion-buttons { 
+    display: flex; 
+    gap: 16px; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    margin-bottom: 12px;
+    position: relative;
+    z-index: 2;
+}
 .suggestion-buttons button {
     flex: 1 1 0;
     min-width: 0;
-    padding: 10px 12px;
-    border-radius: 12px;
-    border: 1px solid rgba(148, 174, 255, 0.35);
-    background: linear-gradient(140deg, rgba(78, 103, 255, 0.24), rgba(30, 44, 110, 0.78));
-    color: #f0f3ff;
+    padding: 16px 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(148, 163, 184, 0.3);
+    background: linear-gradient(135deg, 
+        rgba(30, 41, 59, 0.9) 0%, 
+        rgba(51, 65, 85, 0.7) 100%
+    );
+    color: #f1f5f9;
     font-weight: 600;
-    font-size: 0.92rem;
-    transition: transform 0.17s ease, box-shadow 0.17s ease, border-color 0.17s ease;
+    font-size: 0.95rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(12px);
+    box-shadow: 
+        0 8px 16px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+.suggestion-buttons button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, 
+        transparent, 
+        rgba(59, 130, 246, 0.1), 
+        transparent
+    );
+    transition: left 0.6s ease;
+}
+.suggestion-buttons button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, 
+        transparent, 
+        rgba(255, 255, 255, 0.2), 
+        transparent
+    );
 }
 .suggestion-buttons button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 20px 30px rgba(12, 20, 48, 0.42);
-    border-color: rgba(193, 210, 255, 0.85);
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 
+        0 32px 64px rgba(0, 0, 0, 0.2),
+        0 16px 32px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    border-color: rgba(59, 130, 246, 0.5);
+    background: linear-gradient(135deg, 
+        rgba(30, 41, 59, 0.95) 0%, 
+        rgba(51, 65, 85, 0.8) 100%
+    );
+}
+.suggestion-buttons button:hover::before {
+    left: 100%;
+}
+.suggestion-buttons button:active {
+    transform: translateY(-2px) scale(1.01);
 }
 .gradio-container textarea {
-    border-radius: 14px !important;
-    min-height: 90px !important;
-    background: rgba(19, 28, 58, 0.94);
-    border: 1px solid rgba(139, 162, 255, 0.3);
-    color: #f2f4ff;
-    box-shadow: inset 0 0 0 1px rgba(175, 196, 255, 0.1);
+    border-radius: 20px !important;
+    min-height: 120px !important;
+    background: rgba(30, 41, 59, 0.95) !important;
+    border: 1px solid rgba(148, 163, 184, 0.3) !important;
+    color: #f1f5f9 !important;
+    box-shadow: 
+        inset 0 1px 0 rgba(255, 255, 255, 0.1),
+        0 16px 32px rgba(0, 0, 0, 0.2),
+        0 8px 16px rgba(0, 0, 0, 0.1) !important;
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+    line-height: 1.6 !important;
+    padding: 20px 24px !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    backdrop-filter: blur(16px) !important;
+    position: relative !important;
+    overflow: hidden !important;
+}
+.gradio-container textarea::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
 }
 .gradio-container textarea:focus {
-    outline: none;
-    border-color: rgba(194, 208, 255, 0.92);
-    box-shadow: 0 0 0 2px rgba(120, 148, 255, 0.34);
+    outline: none !important;
+    border-color: rgba(59, 130, 246, 0.6) !important;
+    box-shadow: 
+        0 0 0 4px rgba(59, 130, 246, 0.2),
+        0 24px 48px rgba(0, 0, 0, 0.3),
+        0 12px 24px rgba(0, 0, 0, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.15) !important;
+    background: rgba(30, 41, 59, 0.98) !important;
+    transform: translateY(-1px) !important;
+}
+.gradio-container textarea::placeholder {
+    color: rgba(203, 213, 225, 0.7) !important;
+    font-weight: 500 !important;
+    font-style: italic !important;
 }
 #footer {
     text-align: center;
-    opacity: 0.9;
-    font-size: 0.95rem;
-    margin-top: 24px;
-    letter-spacing: 0.04em;
+    opacity: 0.8;
+    font-size: 0.9rem;
+    margin-top: 32px;
+    letter-spacing: 0.06em;
+    color: rgba(203, 213, 225, 0.8);
+    font-weight: 500;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 2;
+}
+
+/* Professional loading states and animations */
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.6; }
+}
+@keyframes shimmer {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.loading-message {
+    animation: pulse 2s ease-in-out infinite;
+}
+.loading-shimmer {
+    position: relative;
+    overflow: hidden;
+}
+.loading-shimmer::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, 
+        transparent, 
+        rgba(59, 130, 246, 0.1), 
+        transparent
+    );
+    animation: shimmer 2.5s infinite;
+}
+
+/* Professional button styles */
+.gradio-container button {
+    border-radius: 16px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    position: relative !important;
+    overflow: hidden !important;
+    backdrop-filter: blur(12px) !important;
+    box-shadow: 
+        0 8px 16px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+}
+.gradio-container button:hover {
+    transform: translateY(-2px) scale(1.02) !important;
+    box-shadow: 
+        0 16px 32px rgba(0, 0, 0, 0.2),
+        0 8px 16px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.15) !important;
+}
+.gradio-container button:active {
+    transform: translateY(-1px) scale(1.01) !important;
+}
+
+/* Professional scrollbar styling */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(30, 41, 59, 0.3);
+    border-radius: 6px;
+    border: 1px solid rgba(148, 163, 184, 0.1);
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, 
+        rgba(59, 130, 246, 0.6) 0%, 
+        rgba(147, 51, 234, 0.6) 100%
+    );
+    border-radius: 6px;
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, 
+        rgba(59, 130, 246, 0.8) 0%, 
+        rgba(147, 51, 234, 0.8) 100%
+    );
+    box-shadow: 
+        0 4px 8px rgba(0, 0, 0, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+/* Professional responsive design */
+@media (max-width: 1024px) {
+    #container { 
+        padding: 24px 32px; 
+        border-radius: 28px;
+        max-width: 100%;
+    }
+    #header { 
+        gap: 24px;
+    }
+    #logo img { 
+        max-height: 200px; 
+    }
+    #chatbot { 
+        height: clamp(620px, calc(100dvh - 180px), 1000px); 
+        border-radius: 24px;
+    }
+    #chatbot .message-wrap .bot .message {
+        margin-right: 40px;
+    }
+    #chatbot .message-wrap .user .message {
+        margin-left: 40px;
+    }
 }
 
 @media (max-width: 900px) {
-    #container { padding: 12px 18px; }
-    #header { flex-direction: column; text-align: center; }
-    #logo img { max-height: 170px; }
-    #chatbot { height: clamp(460px, calc(100dvh - 220px), 820px); }
-    .suggestion-buttons button { min-width: 150px; }
+    #container { 
+        padding: 20px 24px; 
+        border-radius: 24px;
+    }
+    #header { 
+        flex-direction: column; 
+        text-align: center; 
+        gap: 24px;
+    }
+    #logo img { 
+        max-height: 180px; 
+    }
+    #chatbot { 
+        height: clamp(580px, calc(100dvh - 160px), 900px); 
+        border-radius: 20px;
+    }
+    #chatbot .message-wrap .bot .message {
+        margin-right: 20px;
+        padding: 16px 20px;
+    }
+    #chatbot .message-wrap .user .message {
+        margin-left: 20px;
+        padding: 16px 20px;
+    }
+    .suggestion-buttons { 
+        flex-direction: column; 
+        gap: 12px;
+    }
+    .suggestion-buttons button { 
+        min-width: 100%; 
+        padding: 16px 20px;
+    }
+    #title {
+        font-size: 1.4rem;
+        margin: 20px 0 24px;
+    }
+    #intro-card {
+        padding: 24px 28px;
+        border-radius: 20px;
+    }
 }
 
 @media (max-width: 640px) {
-    .gradio-container { padding: 18px 0 28px; }
-    #container { border-radius: 18px; }
-    #chatbot { height: clamp(420px, calc(100dvh - 200px), 720px); }
+    .gradio-container { 
+        padding: 16px 0 24px; 
+    }
+    #container { 
+        border-radius: 20px; 
+        padding: 16px 20px;
+    }
+    #chatbot { 
+        height: clamp(520px, calc(100dvh - 140px), 800px); 
+        border-radius: 18px;
+    }
+    #chatbot .message-wrap .bot .message {
+        margin-right: 12px;
+        margin-left: 4px;
+        padding: 14px 18px;
+        border-radius: 20px;
+    }
+    #chatbot .message-wrap .user .message {
+        margin-left: 12px;
+        margin-right: 4px;
+        padding: 14px 18px;
+        border-radius: 20px;
+    }
+    #logo img { 
+        max-height: 160px; 
+    }
+    #intro-card {
+        padding: 20px 24px;
+        border-radius: 16px;
+    }
+    .gradio-container textarea {
+        min-height: 100px !important;
+        padding: 16px 20px !important;
+        font-size: 0.95rem !important;
+        border-radius: 16px !important;
+    }
+    #title {
+        font-size: 1.2rem;
+        margin: 16px 0 20px;
+    }
+    .suggestion-buttons button {
+        padding: 14px 18px;
+        border-radius: 14px;
+    }
 }
 """
 logger.info("Custom CSS initialized")
@@ -232,7 +731,14 @@ with gr.Blocks(theme=theme, css=custom_css) as demo:
                     )
         gr.Markdown("## Chat with Daniel", elem_id="title")
         with gr.Column(elem_id="chat-wrapper"):
-            chat_input = gr.Textbox(placeholder="Type your message…", autofocus=True)
+            chat_input = gr.Textbox(
+                placeholder="Type your message here…", 
+                autofocus=True,
+                max_lines=5,
+                show_copy_button=True,
+                container=False,
+                scale=1
+            )
             chat_iface = gr.ChatInterface(
                 me.chat,
                 type="messages",
@@ -243,15 +749,19 @@ with gr.Blocks(theme=theme, css=custom_css) as demo:
                 stop_btn="Stop",
                 textbox=chat_input,
             )
-            gr.Markdown("**Need inspiration?** Try asking:")
+            gr.Markdown("**Need inspiration?** Try asking:", elem_classes="suggestion-banner")
             with gr.Row(elem_classes="suggestion-buttons"):
                 examples = [
-                    "Tell me about your last role",
+                    "Tell me about your last role and what you do day to day",
                     "How would you design a small RAG pipeline for docs?",
                     "What Python libraries are you familiar with?",
                 ]
                 for example in examples:
-                    gr.Button(example).click(
+                    gr.Button(
+                        example,
+                        variant="secondary",
+                        size="sm"
+                    ).click(
                         lambda text=example: gr.update(value=text),
                         outputs=chat_input,
                     )

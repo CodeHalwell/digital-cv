@@ -1,1 +1,125 @@
-History File
+History File2025-10-05 21:19:19,076 INFO utils.app_logging: Starting digital-cv
+2025-10-05 21:19:19,288 INFO utils.app_logging: Me initialized
+2025-10-05 21:19:19,290 INFO utils.app_logging: Chatbot initialized
+2025-10-05 21:19:19,290 INFO utils.app_logging: Custom CSS initialized
+2025-10-05 21:19:19,479 INFO utils.app_logging: Blocks app initialized
+2025-10-05 21:19:19,480 INFO utils.app_logging: Launching demo
+2025-10-05 21:19:55,737 INFO utils.app_logging: User: Tell me about your last role
+2025-10-05 21:19:56,188 INFO utils.app_logging: Guardrails response: Neutral True -> True
+2025-10-05 21:20:11,030 INFO utils.app_logging: Assistant final response: Great question — happy to share.
+
+Short answer: right now I split my time between a part‑time AI advisory role at CoDHe Labs (my most recent/ongoing appointment) and a senior scientist role at AstraZeneca where I spent the last several years doing hybrid analytical science + AI engineering. Here are the highlights of each:
+
+CoDHe Labs — AI Engineer Advisor (part‑time, Jul 2025 – Present)
+- What I do: help organisations implement Generative AI responsibly and practically — RAG systems, chatbots, automation and ML model development.
+- Projects: RAG & chatbot deployments, automation pipelines, pro‑bono AI consulting for UK charities/non‑profits.
+- Tech: Python, TensorFlow/PyTorch, OpenAI APIs, LangChain, FastAPI, SQL.
+- Why it matters: translates LLMs and modern ML into usable tools that reduce repetitive work and surface domain knowledge safely.
+
+AstraZeneca — Senior Scientist (May 2021 – Present / full‑time)
+- Core role: keep one foot firmly in analytical chemistry (method development/validation for trace analysis — e.g. nitrosamines using UPLC, GC, LC‑MS/MS) and the other in data science/engineering.
+- Key contributions:
+  - Developed ML models (XGBoost, neural nets) for chromatographic prediction and Bayesian optimisation for method development.
+  - Built REST APIs (FastAPI) to integrate analytical data pipelines and improve data accessibility.
+  - Designed and deployed a RAG laboratory knowledge assistant to help scientists find protocols, interpret data and speed decision making.
+  - Automated data processing, instrument log extraction and ticket workflows to improve lab throughput and reproducibility.
+- Tech & skills: HPLC/GC-MS/LC-MS/MS, Python, SQL, machine learning, statistical methods, generative AI, LLMs, RAG systems, Copilot Studio.
+- Impact: faster, more robust trace analyses under tight regulatory timelines; better data automation and knowledge sharing across the lab.
+
+If you want, I can dive deeper into any of those projects (e.g., the RAG assistant, a nitrosamine method I worked on, or the Bayesian optimisation work). Or drop me a line at danielhalwell@gmail.com and I’ll send more details.
+2025-10-05 21:23:11,313 INFO utils.app_logging: Demo launched
+2025-10-05 21:23:22,869 INFO utils.app_logging: Starting digital-cv
+2025-10-05 21:23:23,011 INFO utils.app_logging: Me initialized
+2025-10-05 21:23:23,013 INFO utils.app_logging: Chatbot initialized
+2025-10-05 21:23:23,013 INFO utils.app_logging: Custom CSS initialized
+2025-10-05 21:24:26,072 INFO utils.app_logging: Starting digital-cv
+2025-10-05 21:24:26,204 INFO utils.app_logging: Me initialized
+2025-10-05 21:24:26,206 INFO utils.app_logging: Chatbot initialized
+2025-10-05 21:24:26,206 INFO utils.app_logging: Custom CSS initialized
+2025-10-05 21:24:41,387 INFO utils.app_logging: Starting digital-cv
+2025-10-05 21:24:41,523 INFO utils.app_logging: Me initialized
+2025-10-05 21:24:41,526 INFO utils.app_logging: Chatbot initialized
+2025-10-05 21:24:41,526 INFO utils.app_logging: Custom CSS initialized
+2025-10-05 21:24:41,648 INFO utils.app_logging: Blocks app initialized
+2025-10-05 21:24:41,649 INFO utils.app_logging: Launching demo
+2025-10-05 21:27:36,937 INFO utils.app_logging: Demo launched
+2025-10-05 21:27:40,738 INFO utils.app_logging: Starting digital-cv
+2025-10-05 21:27:40,877 INFO utils.app_logging: Me initialized
+2025-10-05 21:27:40,879 INFO utils.app_logging: Chatbot initialized
+2025-10-05 21:27:40,879 INFO utils.app_logging: Custom CSS initialized
+2025-10-05 21:27:41,005 INFO utils.app_logging: Blocks app initialized
+2025-10-05 21:27:41,006 INFO utils.app_logging: Launching demo
+2025-10-05 21:29:22,450 INFO utils.app_logging: Demo launched
+2025-10-05 21:29:25,892 INFO utils.app_logging: Starting digital-cv
+2025-10-05 21:29:26,024 INFO utils.app_logging: Me initialized
+2025-10-05 21:29:26,025 INFO utils.app_logging: Chatbot initialized
+2025-10-05 21:29:26,026 INFO utils.app_logging: Custom CSS initialized
+2025-10-05 21:29:26,147 INFO utils.app_logging: Blocks app initialized
+2025-10-05 21:29:26,147 INFO utils.app_logging: Launching demo
+2025-10-05 21:29:34,303 INFO utils.app_logging: User: Tell me about your last role and what you do day to day
+2025-10-05 21:29:35,009 INFO utils.app_logging: Guardrails response: Neutral. True -> True
+2025-10-05 21:29:48,791 INFO utils.app_logging: Assistant final response: Great question — happy to share.
+
+Short version: I’m a Senior Scientist at AstraZeneca (May 2021–present) where I combine hands‑on analytical chemistry with data science and engineering. I also do part‑time AI advisory work for CoDHe Labs (from July 2025) helping organisations implement Generative AI responsibly.
+
+Day‑to‑day — what I actually do
+- Lab work & method development: design, optimise and validate ultra‑sensitive chromatographic methods (UPLC, GC, LC‑MS/MS) — a big focus is trace nitrosamine detection at extremely low levels.  
+- Troubleshooting & investigations: support non‑routine analysis, root‑cause work, CAPA and regulatory queries (MHRA/FDA), and on‑the‑fly method adaptations for manufacturing issues.  
+- Data & automation: write Python to process instrument output, automate data pipelines and ticket workflows, and build REST APIs (FastAPI) to integrate analytical data.  
+- Machine learning & optimisation: develop models (XGBoost, neural nets) for chromatographic prediction and use Bayesian optimisation to speed method development.  
+- Knowledge systems & GenAI: built a RAG‑style lab assistant for knowledge management and experiment support; prototype agentic workflows and chatbots using OpenAI/Anthropic APIs, LangChain, etc.  
+- Collaboration & communication: daily interactions with chemists, engineers, suppliers and cross‑site colleagues, reviewing results, writing technical reports and training users.  
+- Mentoring & documentation: maintain cGxP documentation, run trainings, and mentor colleagues on data and AI practices.
+
+Typical day example
+- Morning: review overnight instrument runs, triage any failing batches, quick stand‑up with the team.  
+- Midday: lab time for method experiments, then an hour coding to process a new instrument log or iterate a model.  
+- Afternoon: meeting with manufacturing or suppliers, update a validation report, or demo a RAG assistant to stakeholders. Finish by planning next experiments and updating notebooks/reports.
+
+Tools & tech I use regularly
+HPLC/GC/LC‑MS/MS, Python, SQL, FastAPI, LangChain, OpenAI/Anthropic APIs, TensorFlow/PyTorch, Bayesian optimisation libraries.
+
+If you want more detail about any part (lab methods, a particular project like the RAG assistant, or the ML work), ask away — or email me at danielhalwell@gmail.com and I’ll happily dive deeper.
+2025-10-05 21:33:34,649 INFO utils.app_logging: Demo launched
+2025-10-05 21:33:44,065 INFO utils.app_logging: Starting digital-cv
+2025-10-05 21:33:44,210 INFO utils.app_logging: Me initialized
+2025-10-05 21:33:44,212 INFO utils.app_logging: Chatbot initialized
+2025-10-05 21:33:44,212 INFO utils.app_logging: Custom CSS initialized
+2025-10-05 21:33:44,338 INFO utils.app_logging: Blocks app initialized
+2025-10-05 21:33:44,338 INFO utils.app_logging: Launching demo
+2025-10-05 21:33:54,035 INFO utils.app_logging: User: Tell me about your last role and what you do day to day
+2025-10-05 21:33:56,452 INFO utils.app_logging: Guardrails response: Neutral True -> True
+2025-10-05 21:34:14,178 INFO utils.app_logging: Assistant final response: Great question — happy to share.
+
+Current role snapshot
+- Senior Scientist, AstraZeneca (May 2021 – present). I sit at the intersection of analytical chemistry and data engineering: continuing hands‑on trace analytical work (especially nitrosamine risk investigations) while building automation, ML and AI solutions to speed up and improve lab science.
+- I also do part‑time AI advisory work for CoDHe Labs (since July 2025), helping organisations implement responsible generative AI (RAG systems, chatbots, automation).
+
+What I do day‑to‑day
+- Analytical method development & validation: design and validate ultra‑sensitive methods (UPLC/HPLC, GC, LC‑MS/MS) for trace analytes such as nitrosamines — from sample prep through data review and reporting.
+- Hands‑on instrument work: run and troubleshoot LC/GC/MS instruments, interpret chromatographic and spectral data.
+- Automation & data engineering: write Python to clean, visualise and pipeline instrument data; build REST APIs (FastAPI) to integrate lab data sources.
+- ML & optimisation: develop ML models (XGBoost, neural nets) for chromatographic prediction, and use Bayesian optimisation to speed method development.
+- Knowledge systems: build and maintain RAG/chatbot assistants and knowledge management tools for lab users.
+- Investigations & compliance support: lead or support investigations, root cause analysis, CAPA activities and prepare technical documentation for inspections (MHRA, FDA).
+- Cross‑functional collaboration: work with manufacturing, suppliers, microbiologists and engineers to solve urgent problems and transfer methods; occasionally travel for training or troubleshooting.
+- Mentoring & reporting: write technical reports, set acceptance criteria, mentor colleagues and participate in project planning.
+
+A typical day (example)
+- Morning: triage tickets, check overnight runs and QC results, quick stand‑up.
+- Midday: instrument runs and data reviewing; write or update method documents.
+- Afternoon: coding session (automation/analysis model), meetings with stakeholders (manufacturing/suppliers), prepare reports or training materials.
+- End of day: push code/analyses, update project trackers, plan next steps.
+
+Tech I use regularly
+- Lab: HPLC/UPLC, GC, GC‑MS, LC‑MS/MS
+- Code & infra: Python, SQL, FastAPI, LangChain, OpenAI/Anthropic APIs
+- ML/statistics: XGBoost, neural networks, Bayesian optimisation
+- Other: RAG systems, data visualisation and reporting tools
+
+Impact highlights
+- Built ML models for chromatographic prediction and Bayesian optimisation workflows to accelerate method development.
+- Built REST APIs and a RAG lab assistant to improve data access and knowledge sharing across teams.
+
+If you want more detail about any part — e.g., the nitrosamine methods, the RAG assistant, or a day where things went sideways and what we did — ask away or drop me a line at danielhalwell@gmail.com.
+2025-10-05 21:34:57,077 INFO utils.app_logging: Demo launched
