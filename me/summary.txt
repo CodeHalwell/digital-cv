@@ -57,7 +57,9 @@ Questions:
 [/Metadata]
 
 I'm originally from the south west of England in the lovely county of Devon. Great place to grow up even if it is a bit out of the way.
-Shame to move away but you gotta go where the jobs are.
+Shame to move away but you gotta go where the jobs are. I lived here up until the age of 18, when I moved to Guyana South America for a year and
+then on to University. My first work experiences came here and it was nice to grow up in a quiet place where there was a lot of
+people who knew each other, close to the beach in summer and has great pubs and bars.
 ---
 
 —
@@ -80,6 +82,12 @@ I also did a stint in a small component factory, making parts by hand from SOPs 
 counting coil turns, trimming, testing. It wasnt the most exciting job but was a good earner. 
 This was my first foray into QA really, where checking work was a priortiy so things worked,
 this process and repeatability fed straight into my later method development work.
+I also worked in an Indian restaurant where I worked behind the bar most of the time taking orders over the phone,
+making drinks and occasionaly serving drinks to the table and clearing up tables. I always loved indian cuisine and 
+working meant I ate quite a lot of curry, it was amazing.
+I also worked in a nightclub on weekends, which was a pretty late one to be honest, used to start around 10pm and then work through until 
+about 3am. I did quite a few jobs here, I worked in coat check, kitchen (making burgers and lattice fries mainly) and also 
+worked on the bar, pretty hectic.
 
 —
 Gap year in Guyana: teaching and learning to adapt
@@ -124,6 +132,7 @@ I’d already accepted a place for MChem at Loughborough. I wanted industry expe
 industrial placement at Mars Petcare in Verden, Germany. I trained on LC‑MS, GC‑MS, GC‑FID; moved from sample prep
 to method development; migrated a tricky amino‑acid analysis from LC to GC with derivatisation; added additional amino
 acids; and demonstrated linearity and accuracy. First taste of method development and optimisation — and I loved it.
+Living in Germany was a great experience and definitely one of the best places I've ever lived.
 
 I worked on flavour development of cat food, running feeding trials with recipes that I put together. This is where I started
 to get more invloved and interested in statistics. I set up design of experiments trials to determine the optimum concentration
@@ -162,7 +171,7 @@ Questions:
 
 After graduating, I worked as a labourer in Devon while job‑hunting — hauling materials through houses to back gardens,
 mixing cement for brickwork and infill, clearing waste. Tangible progress at the end of each day is addictive. I still chase
-that in software: Its great to see progress when you finish at the end of the day, those small iterative cycles of build, debug
+that in my day to day, which really pointed me towards a career in programming, I just didnt know it yet: Its great to see progress when you finish at the end of the day, those small iterative cycles of build, debug
 , test repeat keeps me addicted to writing code.
 
 —
@@ -184,7 +193,7 @@ non‑routine analysis, method transfers, validations, and inspection support (M
 
 [Metadata]
 Exec summary: Enumerates your day-to-day responsibilities at Sanofi and Recipharm, covering E&L leadership, method transfers, investigations, and manufacturing support.
-Keywords: responsibilities, extractables and leachables, method transfer, validation, investigations, manufacturing support
+Keywords: responsibilities, extractables and leachables, method transfer, validation, investigations, manufacturing support. This is also when I started coding in Python.
 Questions:
 1. What specific analytical tasks did you handle in this role?
 2. How did you contribute to extractables and leachables programmes?
@@ -208,6 +217,9 @@ What I did:
 • Manufacturing support. Collaborated with scientists, engineers, and microbiologists on urgent issues — from chemical
   impurities to microbial contamination — often building or adapting analytical methods on the fly. I'd be testing effluent
   one day and have my head in a metered dose inhaler formulation vessel the next.
+• I worked in routine QC environment for quite a few years, doing analysis of nasal product, metered dose inhalers and also
+the packaging and raw materials that went into them.
+• During this time I gained expertise in HPLC, GC, Karl Fisher and became a super user in GC specifically.
 
 [Metadata]
 Exec summary: Highlights the business impact and personal growth outcomes from your Sanofi/Recipharm tenure, including cost savings, data integrity ethos, and development of statistical expertise.
@@ -220,7 +232,7 @@ Questions:
 [/Metadata]
 
 Why it mattered:
-• We resolved a critical impurity issue that delivered ~£100,000 in cost savings (and a lot of learning).
+• We resolved a critical impurity issue that delivered real cost savings (and a lot of learning).
 • I developed deep respect for data integrity and traceability: if it isn’t documented, it didn’t happen.
 • Statistics became second‑nature and nudged me towards Python and, later, machine learning and AI.
 • I gained invaluble experience in practical problem solving (PPS). I worked on an extensive investigation using the 
@@ -266,18 +278,20 @@ Key achievements and strands of work:
   outputs, and UAT. It reduced troubleshooting lead times by ~20% and made internal knowledge more discoverable.
 • Bayesian optimisation for method development. We matched a historical method‑development context and reached
   the same optimum with ~50% fewer experiments by applying Bayesian optimisation. That moved from a promising study
-  to an adopted practice in real projects.
+  to an adopted practice in real projects. This was a great team of individuals with expert knowledge of automation
+  , Python, Bayesian Optimisation (using BayBE) and Gas Chromatography and HRMS. I also devloped a RAG chatbot for
+  writing PAL script code for managing CTC rails.
 • Agentic workflows. I’m actively developing agentic patterns (tool‑use, MCP) to cut manual
   coordination and reduce method‑development effort. In targeted scopes, we’ve seen up to ~80% reductions in the
   human loops required to get to “good enough to ship” (the point is fewer trips round the houses, not magic).
 • Data pipelines & APIs. I engineered pipelines in SQL (Snowflake) and Python; launched FastAPI services so downstream
   tools could call data cleanly; and used those services as foundations for GenAI tools via tool‑use/MCP.
 • Dashboards that people actually use. I built Power BI and Streamlit tooling that gives a clean view of support tickets,
-  instrument utilisation, and a self‑serve nitrite portal — small things that remove daily friction.
-• Platform correctness. I raised and helped resolve an ETL/schema issue where nested data wasn’t being flattened for
-  SQL; fixing it unlocked cleaner features and better downstream modelling.
+  instrument utilisation, and a self‑serve data portals.
+• Worked with large scale databases to retrieve and clean data. Worked with external partners to improve the data pipeline
+• Developed and deployed streamlit web apps for various purposes
 • Chromatographic prediction. From fingerprints + XGBoost baselines to neural approaches and, later, attention‑based
-  graph models. I pre‑trained on a large open dataset (~70k injections) with a plan to fine‑tune on internal data (~30k).
+  graph models. I pre‑trained on a large open dataset (~70k injections)
 • Mentoring & community. I contribute to the internal Coding Network, support colleagues learning Python, and sit on the
   programming expert panel. I like turning tacit know‑how into repeatable templates.
 
@@ -315,11 +329,12 @@ Alongside my full‑time role, I formalised my independent work as CoDHe Labs �
 • ML‑powered insights dashboards wired to a warehouse.
 • Agentic workflow automation that coordinates multi‑step processes via tool‑use.
 • Digital uplift for small teams and non‑profits (including light M365/Azure support).
+This includes setting up invoicing automation, data entry and storage, user management
 I also run an “AI for Charities” pro bono strand because capability should compound beyond big budgets.
 
 I'm currently working on a project to help a charity with their IT infrastructure and automations using Excel VBA,
 Power Automate and Python. I'm also liasing with external partners to implement additional tools.
-I'm also working on an agentic VS COde extension but more of that at a later date
+I'm also working on an agentic VS Code extension but more of that at a later date as thats still in development.
 
 [Metadata]
 Exec summary: Outlines your scoping methodology for client engagements, focusing on bottleneck identification, rapid prototyping, transparency, and documentation.
@@ -351,9 +366,34 @@ Questions:
 5. How do these achievements reflect your focus on behaviour change?
 [/Metadata]
 
-• 4th place in a Kaggle binary‑classification competition (Mar 2025) — a nice reminder that fundamentals matter.
+• 4th place in a Kaggle binary‑classification competition (Mar 2025) — a nice reminder that fundamentals matter. In this
+challenge, we were tasked with predicting rainfall. I enjoyed working on this one and I learnt a few things as I progressed with submitting
+my predictions. I started with the usual EDA and feature engineering before testing a few models. I tend to default to models like
+XGBoost because it works really well out of the box. I usually like to do a random forest as a baseline for most tasks though, then I
+can iterate and start to build a picture of what works best. My go to toolbox is sklearn for models, pandas for data manipulation and seaborn
+for visualisation. Sklearn is great for pre-processing data as well as hyperparameter tuning, running a quick random search cv and grid search cv
+is usually my sequence. When performing a task like this, I alays like to keep in mind what data I have for predictions, especially whether the dataset
+is well balanced, on this occasion, it was quite unbalanced. When this happens, I like to employ SMOTE, generating synthetic data to help balance the scales.
+This dramatically improved performance. The final step was something new to me, I used a VotingClassifier to train multiple methods and 
+train a surrogate model picker to evaluate the classifier. Initially, I was really inpressed with my cross validation, but the test set
+on Kaggle didnt look like anything special. However, I decided to stick with the good cross val score and it really payed off. I jumped up
+hundreds of places in the final leaderboard. I got my free t-shirt, one of my prized possesions, a really proud moment when I started to realise
+I'm more than ok at this, I can do this as a job. With no classical training, no full time data job, I was surpassing trained data scientists
+and Kaggle grandmasters, just imagine what I could do if I did it full time.
 • Modal Labs Choice Award ($5,000) for an agentic Model Context Protocol (MCP) server during a Gradio + Hugging Face
   hackathon (Jul 2025). The joy wasn’t the prize — it was proving a lean, useful pattern quickly with real constraints.
+  This was one of the best achievements of my adult career. Prior to this, I hadnt written a single MCP, hadnt even really used MCP that much but I felt 
+  I wanted the challenge. I worked incredibly hard on this, working very late into the night (I couldnt sleep anyway lol) and planned out my
+  application. At first, I wanted to make agentic deep research but, the more I thought about it, I want something quick with low latency. Shallow Research was born.
+  Shallow Research was about code, generating tested and validated code. The MCP in essence, took a user input about code, like "how do I perform predictions on a binary classification task?"
+  The MCP would begin a linear "agentic" workflow, where there would be various agents tasked with very specific tasks. There was a research agent
+  to look up best practice on the internet, then there was a code generation agent, then there was the most critical part, the code execution.
+  The real power of the MCP was the ability to run code in a remote sandbox on the Modal platform, an amazing platform for spinning up CPU or GPU instances.
+  The Code Runner agent would run the code and make sure the code works, the sandbox doesnt have the right library, no wories, the library would be installed
+  dynamically. A simple image was set up on Modal to decrease latency, this way it was set up quick with the core libraries and then other libraries were installed
+  only when needed. Finally, all of this would be returned to the user, the user can see that the code was executed and what the result was. They
+  could copy and paste the code knowing that the code would work. The aim was this to be a great MCP for those learning to code, it'd give you
+  working code with good explanations and citations to read more.
 • The Bayesian optimisation result at AZ (same optimum, ~50% fewer experiments) because it moved from “cool idea” to
   “how we actually work”. It was the first of its type in the department and I learned a lot from Bayesian experts
 • The RAG assistant because it reduced real, everyday friction for colleagues hunting for knowledge in complex systems. The
@@ -398,7 +438,8 @@ Questions:
 • Nothing is ever good enough, we can always improve on processes
 • I'm honest, if somethings my fault, I'll hold my hand up and expect the same of others. Pushing blame onto others or nitpicking people doesnt impress me
 • Opinionated defaults, but collaborative. I’ll propose a pattern and then adapt with the team.
-• Documentation is part of delivery. If someone can’t pick it up without me, I haven’t finished and thats hard to follow through on
+• Documentation is part of delivery. If someone can’t pick it up without me, I haven’t finished and thats hard to follow through on. It's not always easy but I try my best. In the world of Pharma, if you didnt write it down, it never happened.
+If it was never written down but some action was performed, then an auditor is not going to like it and that can get you in serious trouble.
 • I’ll say “Yeah, definitely,” when something resonates. I’ll say “to be honest,” when I need to cut through nicely.
 
 —
@@ -793,11 +834,16 @@ Design choices:
 • Retrieval is explicit: top-k, distances/scores, and doc IDs logged.
 • Re-ranking improves answer quality without overloading the LLM.
 • Style/guardrails: British spelling, direct tone; citations mandatory; no hallucinated claims beyond the retrieved contexts.
+- I hooked the RAG pipeline up to Telegram, that way, I can put a message in Telegram and it'll start the RAG pipeline, retrive relevant papers
+and then drop the response back in a message a few minutes later.
 
 Impact:
 • I don’t waste time manually scanning feeds; new work lands in Notion and the vector store each morning.
 • I can query “What’s new on tool-use/MCP for agents?” and get a grounded answer with links.
 • The same index powers demos and internal RAG utilities — a single source of truth.
+
+Email Triage - I get lost in a sea of emails, its so easy to miss things, the answer, have an agent do it for you. 
+My triage agent reads through emails and uses a tier system to highlight items for escalations. If an important email comes through I get a message and can take a look.
 
 [Metadata]
 Exec summary: Summarises the benefits of your automated research pipelines, highlighting time savings, improved retrieval, and reusable indexes.
@@ -822,7 +868,7 @@ Questions:
 4. How does this section help partners understand fit?
 [/Metadata]
 
-• Roles: AI Engineer / ML Engineer / Data Scientist (UK-remote or North West hybrid); short build engagements for copilots, RAG, and agentic automations.
+• Roles: AI Engineer / ML Engineer / Data Scientist (UK-remote or North West hybrid); full time positions and short build engagements for copilots, RAG, and agentic automations.
 • Pro bono: time-boxed PoCs for UK charities and mission-led organisations.
 • Collaborations: research tooling, open-source scaffolding, educational content.
 
@@ -843,6 +889,8 @@ I love writing Python and shipping small tools that unblock people — it’s th
 I tend to obsess about the bottleneck: if it’s retrieval, I build RAG; if it’s too many experiments, I reach for Bayesian optimisation; 
 if it’s brittle handoffs, I ship a typed API. Solving problems is the through-line for me — discreet questions, clear interfaces, 
 quick feedback, and steady iteration.
+I love to help people in general, if someone is struggling with some Python, I like to solve it, if they are having issue with Microsoft COpilot Studio flows,
+I'm more than happy to take a quick look and see what I can do. So far, people really appreciate this approach and I get some really good feedback.
 
 —
 Sport & Judo

@@ -1,2 +1,0 @@
-User: Wehre did you grow up?
-Assistant: {}
